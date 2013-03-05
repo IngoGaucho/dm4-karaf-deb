@@ -1,0 +1,57 @@
+karaf: JAVA_HOME not set; results may vary
+CoreActivator ========== Starting "DeepaMehta 4 Core" ==========
+CoreActivator Adding HTTP service to DeepaMehta 4 Core
+CoreActivator Adding storage service to DeepaMehta 4 Core
+CoreActivator Registering DeepaMehta 4 core service at OSGi framework
+CoreActivator Registering Web Publishing service at OSGi framework
+PluginManager ----- Activating plugin "DeepaMehta 4 Facets" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Facets" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 1
+PluginManager ----- Activating plugin "DeepaMehta 4 Help" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Help" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 2
+PluginManager ----- Activating plugin "DeepaMehta 4 File Manager" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 File Manager" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 3
+PluginManager ----- Activating plugin "DeepaMehta 4 Type Search" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Type Search" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 4
+PluginManager ----- Activating plugin "DeepaMehta 4 Webclient" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Webclient" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 5
+PluginManager ----- Activating plugin "DeepaMehta 4 Files" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Files" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 6
+PluginManager ----- Activating plugin "DeepaMehta 4 Topicmaps" -----
+PluginManager ----- Activating plugin "DeepaMehta 4 Geomaps" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Geomaps" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 7
+PluginManager ----- Activation of plugin "DeepaMehta 4 Topicmaps" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 8
+PluginManager Activation of plugin "DeepaMehta 4 Topicmaps" ABORTED -- already activated
+PluginManager ----- Activating plugin "DeepaMehta 4 Icon Picker" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Icon Picker" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 9
+PluginManager ----- Activating plugin "DeepaMehta 4 Type Editor" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Type Editor" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 10
+PluginManager ----- Activating plugin "DeepaMehta 4 Notes" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Notes" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 11
+PluginManager ----- Activating plugin "DeepaMehta 4 Workspaces" -----
+PluginManager ----- Activating plugin "DeepaMehta 4 Access Control" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Access Control" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 12
+PluginManager ----- Activation of plugin "DeepaMehta 4 Workspaces" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 13
+PluginManager Activation of plugin "DeepaMehta 4 Access Control" ABORTED -- already activated
+PluginManager ----- Activating plugin "DeepaMehta 4 Webbrowser" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Webbrowser" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 14
+PluginManager ----- Activating plugin "DeepaMehta 4 Contacts" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Contacts" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 15
+PluginManager ----- Activating plugin "DeepaMehta 4 Webservice" -----
+PluginManager ----- Activation of plugin "DeepaMehta 4 Webservice" complete -----
+PluginManager ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 16
+PluginManager ########## All Plugins Activated ##########

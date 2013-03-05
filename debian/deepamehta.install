@@ -1,0 +1,8 @@
+bin/bin/* /usr/lib/deepamehta/bin
+bin/bundle/* /usr/lib/deepamehta/bundle
+bin/etc/* /etc/deepamehta
+bin/lib/* /usr/lib/karaf
+bin/system/* /usr/lib/deepamehta/system
+etc/init.d/deepamehta-karaf /etc/init.d
+etc/default/deepamehta-karaf /etc/default
+

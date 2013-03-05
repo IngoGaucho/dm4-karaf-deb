@@ -1,0 +1,31 @@
+#!/bin/sh
+NAME=deepamehta-karaf
+
+# Read configuration variable file if it is present
+[ -r /etc/default/$NAME ] && . /etc/default/$NAME
+
+case "$1" in
+	start)
+		# Check START_DEEPAMEHTA
+		if [ "$START_DEEPAMEHTA" != "yes" ]; then
+			echo "$NAME is disabled in /etc/default/$NAME.\n"
+			exit 0
+		fi
+		/usr/lib/deepamehta/bin/start
+		;;
+	stop)
+		/usr/lib/deepamehta/bin/stop
+		;;
+	status)
+		/usr/lib/deepamehta/bin/admin
+		;;
+	restart)
+		/usr/lib/deepamehta/bin/stop
+		/usr/lib/deepamehta/bin/start
+		;;
+	*)
+		# Display options
+		echo "Usage: $NAME {start|stop|status|restart}" >&2
+		exit 42
+		;;
+esac

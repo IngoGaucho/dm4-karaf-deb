@@ -1,0 +1,813 @@
+2013-03-05 19:21:06,326 INFO  CoreActivator                    ========== Starting "DeepaMehta 4 Core" ==========
+2013-03-05 19:21:06,360 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webservice" ABORTED -- file does not exist
+2013-03-05 19:21:06,377 INFO  WebservicePlugin                 ========== Starting plugin "DeepaMehta 4 Webservice" ==========
+2013-03-05 19:21:06,388 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Webservice" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,390 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:21:06,422 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:06,431 INFO  WebclientPlugin                  ========== Starting plugin "DeepaMehta 4 Webclient" ==========
+2013-03-05 19:21:06,432 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Webclient" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,433 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:06,462 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:06,463 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Webbrowser" ==========
+2013-03-05 19:21:06,476 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Webbrowser" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,478 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:06,492 INFO  CoreActivator                    Adding HTTP service to DeepaMehta 4 Core
+2013-03-05 19:21:06,507 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:06,508 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Notes" ==========
+2013-03-05 19:21:06,511 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Notes" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,516 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:06,535 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:06,536 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Contacts" ==========
+2013-03-05 19:21:06,549 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Contacts" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,552 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:06,566 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:06,567 INFO  WorkspacesPlugin                 ========== Starting plugin "DeepaMehta 4 Workspaces" ==========
+2013-03-05 19:21:06,583 INFO  PluginImpl                       Tracking 1 plugin services for plugin "DeepaMehta 4 Workspaces" [de.deepamehta.plugins.facets.service.FacetsService]
+2013-03-05 19:21:06,585 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:06,596 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:06,597 INFO  TypeEditorPlugin                 ========== Starting plugin "DeepaMehta 4 Type Editor" ==========
+2013-03-05 19:21:06,600 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Type Editor" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,602 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:06,607 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:06,609 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Icon Picker" ==========
+2013-03-05 19:21:06,622 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Icon Picker" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,624 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:06,630 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Type Search" ABORTED -- file does not exist
+2013-03-05 19:21:06,631 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Type Search" ==========
+2013-03-05 19:21:06,631 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Type Search" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,632 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:21:06,645 INFO  TopicmapsPlugin                  ### Registering topicmap renderer "de.deepamehta.plugins.topicmaps.DefaultTopicmapRenderer"
+2013-03-05 19:21:06,646 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:06,648 INFO  TopicmapsPlugin                  ========== Starting plugin "DeepaMehta 4 Topicmaps" ==========
+2013-03-05 19:21:06,652 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Topicmaps" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,653 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:06,670 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:06,672 INFO  FilesPlugin                      ========== Starting plugin "DeepaMehta 4 Files" ==========
+2013-03-05 19:21:06,677 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Files" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,678 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:06,690 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 File Manager" ABORTED -- file does not exist
+2013-03-05 19:21:06,691 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 File Manager" ==========
+2013-03-05 19:21:06,691 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 File Manager" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,692 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:21:06,704 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Help" ABORTED -- file does not exist
+2013-03-05 19:21:06,705 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Help" ==========
+2013-03-05 19:21:06,705 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Help" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,706 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:21:06,729 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:06,731 INFO  AccessControlPlugin              ========== Starting plugin "DeepaMehta 4 Access Control" ==========
+2013-03-05 19:21:06,737 INFO  PluginImpl                       Tracking 1 plugin services for plugin "DeepaMehta 4 Access Control" [de.deepamehta.plugins.workspaces.service.WorkspacesService]
+2013-03-05 19:21:06,738 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:06,743 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:06,744 INFO  FacetsPlugin                     ========== Starting plugin "DeepaMehta 4 Facets" ==========
+2013-03-05 19:21:06,746 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Facets" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,747 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:06,764 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:06,767 INFO  GeomapsPlugin                    ========== Starting plugin "DeepaMehta 4 Geomaps" ==========
+2013-03-05 19:21:06,770 INFO  PluginImpl                       Tracking 2 plugin services for plugin "DeepaMehta 4 Geomaps" [de.deepamehta.plugins.topicmaps.service.TopicmapsService, de.deepamehta.plugins.facets.service.FacetsService]
+2013-03-05 19:21:06,771 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:06,845 INFO  Neo4jStorageActivator            ========== Starting "DeepaMehta 4 Storage - Neo4j" ==========
+2013-03-05 19:21:07,472 INFO  Neo4jStorageActivator            Registering DeepaMehta 4 storage service - Neo4j - at OSGi framework
+2013-03-05 19:21:07,473 INFO  CoreActivator                    Adding storage service to DeepaMehta 4 Core
+2013-03-05 19:21:07,499 INFO  EmbeddedService                  ----- Setting up the database -----
+2013-03-05 19:21:07,686 INFO  StorageDecorator                 Starting with a fresh DB -- Setting migration number to 0
+2013-03-05 19:21:08,139 INFO  MigrationManager                 Running 3 core migrations (migrationNr=0, requiredMigrationNr=3)
+2013-03-05 19:21:08,141 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:08,142 INFO  MigrationManager                 Running core migration 1 (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:08,144 INFO  DeepaMehtaUtils                  Host setting:
+    dm4.host.url="http://localhost:8080/"
+2013-03-05 19:21:08,145 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:08,197 INFO  TypeCache                        Loading topic type "dm4.core.topic_type"
+2013-03-05 19:21:08,315 INFO  TypeCache                        Loading association type "dm4.core.aggregation"
+2013-03-05 19:21:08,475 INFO  TypeCache                        Loading topic type "dm4.core.assoc_type"
+2013-03-05 19:21:08,743 INFO  TypeCache                        Loading topic type "dm4.core.data_type"
+2013-03-05 19:21:09,080 INFO  TypeCache                        Loading topic type "dm4.core.role_type"
+2013-03-05 19:21:09,739 INFO  MigrationManager                 Completing core migration 1
+2013-03-05 19:21:09,739 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:09,747 INFO  MigrationManager                 Reading migration config file "/migrations/migration2.properties" ABORTED -- file does not exist
+2013-03-05 19:21:09,747 INFO  MigrationManager                 Running core migration 2 (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:09,748 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration2.json"
+2013-03-05 19:21:09,859 INFO  TypeCache                        Loading association type "dm4.core.composition_def"
+2013-03-05 19:21:10,280 INFO  MigrationManager                 Completing core migration 2
+2013-03-05 19:21:10,281 INFO  MigrationManager                 Updating migration number (2)
+2013-03-05 19:21:10,282 INFO  MigrationManager                 Reading migration config file "/migrations/migration3.properties" ABORTED -- file does not exist
+2013-03-05 19:21:10,282 INFO  MigrationManager                 Running core migration 3 (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:10,282 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration3.json"
+2013-03-05 19:21:10,776 INFO  MigrationManager                 Completing core migration 3
+2013-03-05 19:21:10,776 INFO  MigrationManager                 Updating migration number (3)
+2013-03-05 19:21:11,015 INFO  EmbeddedService                  ----- Setting up the database complete -----
+2013-03-05 19:21:11,016 INFO  CoreActivator                    Registering DeepaMehta 4 core service at OSGi framework
+2013-03-05 19:21:11,017 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:11,017 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:11,017 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:11,018 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:21:11,018 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:21:11,019 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:11,019 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:11,019 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:21:11,019 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:11,020 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:11,020 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:11,020 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:11,021 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:11,021 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:11,021 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:11,022 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:21:11,025 INFO  WebPublishingService             Setting up the Web Publishing service
+2013-03-05 19:21:11,065 INFO  CoreActivator                    Registering Web Publishing service at OSGi framework
+2013-03-05 19:21:11,066 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:11,067 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Geomaps" at URI namespace "/de.deepamehta.geomaps"
+2013-03-05 19:21:11,102 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Geomaps" at URI namespace "/geomap"
+2013-03-05 19:21:11,103 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Geomaps" ABORTED -- no provider classes provided
+2013-03-05 19:21:11,911 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:11,912 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Facets" at URI namespace "/de.deepamehta.facets"
+2013-03-05 19:21:11,912 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Facets" ABORTED -- no REST resources provided
+2013-03-05 19:21:11,912 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Facets" ABORTED -- no provider classes provided
+2013-03-05 19:21:11,912 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Facets" -----
+2013-03-05 19:21:11,919 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Facets" in the database
+2013-03-05 19:21:11,995 INFO  MigrationManager                 Running 1 migrations for plugin "DeepaMehta 4 Facets" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:11,996 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:11,996 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Facets" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:11,996 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:12,003 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:12,003 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:12,021 INFO  TypeCache                        Loading topic type "dm4.core.meta_type"
+2013-03-05 19:21:12,055 INFO  TypeCache                        Loading association type "dm4.core.instantiation"
+2013-03-05 19:21:12,090 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Facets" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:12,090 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.facets.service.FacetsService" at OSGi framework
+2013-03-05 19:21:12,090 INFO  PluginImpl                       Adding "de.deepamehta.plugins.facets.service.FacetsService" to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:12,091 INFO  PluginImpl                       Adding "de.deepamehta.plugins.facets.service.FacetsService" to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:12,091 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Facets" complete -----
+2013-03-05 19:21:12,096 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 1
+2013-03-05 19:21:12,097 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:12,097 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Access Control" at URI namespace "/de.deepamehta.accesscontrol"
+2013-03-05 19:21:12,098 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Access Control" at URI namespace "/accesscontrol"
+2013-03-05 19:21:12,099 INFO  PluginImpl                       Registering 2 provider classes of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:12,341 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:21:12,342 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Help" at URI namespace "/de.deepamehta.help"
+2013-03-05 19:21:12,342 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Help" ABORTED -- no REST resources provided
+2013-03-05 19:21:12,342 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Help" ABORTED -- no provider classes provided
+2013-03-05 19:21:12,342 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Help" -----
+2013-03-05 19:21:12,345 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Help" in the database
+2013-03-05 19:21:12,409 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Help" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:21:12,449 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Help" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:12,450 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Help" ABORTED -- no OSGi service provided
+2013-03-05 19:21:12,450 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Help" complete -----
+2013-03-05 19:21:12,452 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 2
+2013-03-05 19:21:12,452 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:21:12,452 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 File Manager" at URI namespace "/de.deepamehta.filemanager"
+2013-03-05 19:21:12,453 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 File Manager" ABORTED -- no REST resources provided
+2013-03-05 19:21:12,453 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 File Manager" ABORTED -- no provider classes provided
+2013-03-05 19:21:12,453 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 File Manager" -----
+2013-03-05 19:21:12,458 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 File Manager" in the database
+2013-03-05 19:21:12,541 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 File Manager" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:21:12,578 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 File Manager" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:12,579 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 File Manager" ABORTED -- no OSGi service provided
+2013-03-05 19:21:12,579 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 File Manager" complete -----
+2013-03-05 19:21:12,580 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 3
+2013-03-05 19:21:12,581 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:12,581 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Files" at URI namespace "/de.deepamehta.files"
+2013-03-05 19:21:12,582 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Files" at URI namespace "/files"
+2013-03-05 19:21:12,583 INFO  PluginImpl                       Registering 1 provider classes of plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:12,793 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:12,793 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Topicmaps" at URI namespace "/de.deepamehta.topicmaps"
+2013-03-05 19:21:12,793 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Topicmaps" at URI namespace "/topicmap"
+2013-03-05 19:21:12,794 INFO  PluginImpl                       Registering 1 provider classes of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:12,996 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:21:12,997 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Type Search" at URI namespace "/de.deepamehta.typesearch"
+2013-03-05 19:21:12,997 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Type Search" ABORTED -- no REST resources provided
+2013-03-05 19:21:12,997 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Type Search" ABORTED -- no provider classes provided
+2013-03-05 19:21:12,997 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Type Search" -----
+2013-03-05 19:21:13,000 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Type Search" in the database
+2013-03-05 19:21:13,051 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Type Search" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:21:13,080 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Type Search" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:13,080 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Type Search" ABORTED -- no OSGi service provided
+2013-03-05 19:21:13,081 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Type Search" complete -----
+2013-03-05 19:21:13,082 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 4
+2013-03-05 19:21:13,083 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:13,085 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Icon Picker" at URI namespace "/de.deepamehta.iconpicker"
+2013-03-05 19:21:13,085 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,086 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,086 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:13,086 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Type Editor" at URI namespace "/de.deepamehta.typeeditor"
+2013-03-05 19:21:13,086 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Type Editor" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,087 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Type Editor" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,087 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:13,087 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Workspaces" at URI namespace "/de.deepamehta.workspaces"
+2013-03-05 19:21:13,087 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Workspaces" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,087 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Workspaces" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,087 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:13,088 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Contacts" at URI namespace "/de.deepamehta.contacts"
+2013-03-05 19:21:13,088 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Contacts" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,088 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Contacts" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,088 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:13,088 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Notes" at URI namespace "/de.deepamehta.notes"
+2013-03-05 19:21:13,088 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Notes" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,089 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Notes" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,089 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:13,089 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Webbrowser" at URI namespace "/de.deepamehta.webbrowser"
+2013-03-05 19:21:13,089 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,089 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,090 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:13,090 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Webclient" at URI namespace "/de.deepamehta.webclient"
+2013-03-05 19:21:13,090 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Webclient" at URI namespace "/webclient"
+2013-03-05 19:21:13,091 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Webclient" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,297 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Webclient" -----
+2013-03-05 19:21:13,302 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Webclient" in the database
+2013-03-05 19:21:13,352 INFO  MigrationManager                 Running 2 migrations for plugin "DeepaMehta 4 Webclient" (migrationNr=0, requiredMigrationNr=2)
+2013-03-05 19:21:13,353 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:13,353 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Webclient" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:13,353 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:14,318 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:14,319 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:14,340 INFO  MigrationManager                 Reading migration config file "/migrations/migration2.properties" ABORTED -- file does not exist
+2013-03-05 19:21:14,341 INFO  MigrationManager                 Running migration 2 of plugin "DeepaMehta 4 Webclient" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:14,341 INFO  MigrationManager                 Running plugin migration class de.deepamehta.plugins.webclient.migrations.Migration2
+2013-03-05 19:21:15,031 INFO  MigrationManager                 Completing migration 2 of plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:15,031 INFO  MigrationManager                 Updating migration number (2)
+2013-03-05 19:21:15,196 INFO  PluginImpl                       Registering 3 listeners of plugin "DeepaMehta 4 Webclient" at DeepaMehta 4 core service
+2013-03-05 19:21:15,197 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Webclient" ABORTED -- no OSGi service provided
+2013-03-05 19:21:15,198 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Webclient" complete -----
+2013-03-05 19:21:15,199 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 5
+2013-03-05 19:21:15,200 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:21:15,200 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Webservice" ABORTED -- no Web resources provided
+2013-03-05 19:21:15,201 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Webservice" at URI namespace "/core"
+2013-03-05 19:21:15,201 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:15,201 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Type Editor" -----
+2013-03-05 19:21:15,208 INFO  PluginImpl                       Registering 10 provider classes of plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:21:15,213 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Type Editor" in the database
+2013-03-05 19:21:15,311 INFO  MigrationManager                 Running 1 migrations for plugin "DeepaMehta 4 Type Editor" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:15,312 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:15,312 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Type Editor" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:15,313 INFO  MigrationManager                 Running plugin migration class de.deepamehta.plugins.typeeditor.migrations.Migration1
+2013-03-05 19:21:15,359 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:15,360 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:15,406 INFO  PluginImpl                       Registering 2 listeners of plugin "DeepaMehta 4 Type Editor" at DeepaMehta 4 core service
+2013-03-05 19:21:15,406 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Type Editor" ABORTED -- no OSGi service provided
+2013-03-05 19:21:15,407 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Type Editor" complete -----
+2013-03-05 19:21:15,412 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 6
+2013-03-05 19:21:15,413 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:15,413 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Webbrowser" -----
+2013-03-05 19:21:15,416 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Webbrowser" in the database
+2013-03-05 19:21:15,467 INFO  MigrationManager                 Running 2 migrations for plugin "DeepaMehta 4 Webbrowser" (migrationNr=0, requiredMigrationNr=2)
+2013-03-05 19:21:15,467 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:15,468 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Webbrowser" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:15,468 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:15,646 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:15,646 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:15,654 INFO  MigrationManager                 Reading migration config file "/migrations/migration2.properties" ABORTED -- file does not exist
+2013-03-05 19:21:15,654 INFO  MigrationManager                 Running migration 2 of plugin "DeepaMehta 4 Webbrowser" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:15,654 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration2.json"
+2013-03-05 19:21:15,734 INFO  MigrationManager                 Completing migration 2 of plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:15,735 INFO  MigrationManager                 Updating migration number (2)
+2013-03-05 19:21:15,800 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Webbrowser" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:15,801 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no OSGi service provided
+2013-03-05 19:21:15,801 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Webbrowser" complete -----
+2013-03-05 19:21:15,802 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 7
+2013-03-05 19:21:15,803 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Webservice" -----
+2013-03-05 19:21:15,803 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:15,810 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Webservice" in the database
+2013-03-05 19:21:15,832 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webbrowser" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:15,858 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Webservice" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:21:15,879 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Webservice" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:15,879 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Webservice" ABORTED -- no OSGi service provided
+2013-03-05 19:21:15,879 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Webservice" complete -----
+2013-03-05 19:21:15,881 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 8
+2013-03-05 19:21:15,881 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Contacts" -----
+2013-03-05 19:21:15,890 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Contacts" in the database
+2013-03-05 19:21:15,952 INFO  MigrationManager                 Running 1 migrations for plugin "DeepaMehta 4 Contacts" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:15,953 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:15,953 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Contacts" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:15,953 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:16,818 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:16,818 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:16,952 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Contacts" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:16,953 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Contacts" ABORTED -- no OSGi service provided
+2013-03-05 19:21:16,953 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Contacts" complete -----
+2013-03-05 19:21:16,954 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 9
+2013-03-05 19:21:16,955 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Workspaces" -----
+2013-03-05 19:21:16,960 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Workspaces" in the database
+2013-03-05 19:21:17,027 INFO  MigrationManager                 Running 1 migrations for plugin "DeepaMehta 4 Workspaces" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:17,028 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:17,028 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Workspaces" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:17,028 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:17,201 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:17,202 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:17,206 INFO  WorkspacesPlugin                 Creating workspace "DeepaMehta"
+2013-03-05 19:21:17,602 INFO  PluginImpl                       Registering 3 listeners of plugin "DeepaMehta 4 Workspaces" at DeepaMehta 4 core service
+2013-03-05 19:21:17,602 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.workspaces.service.WorkspacesService" at OSGi framework
+2013-03-05 19:21:17,603 INFO  PluginImpl                       Adding "de.deepamehta.plugins.workspaces.service.WorkspacesService" to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:17,603 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Access Control" -----
+2013-03-05 19:21:17,608 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Access Control" in the database
+2013-03-05 19:21:17,645 INFO  MigrationManager                 Running 1 migrations for plugin "DeepaMehta 4 Access Control" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:17,645 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:17,645 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Access Control" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:17,645 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:17,723 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:17,723 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:17,748 INFO  AccessControlPlugin              Creating "admin" user account => ID=1676
+2013-03-05 19:21:17,823 INFO  AccessControlPlugin              Security settings:
+    dm4.security.read_requires_login=true
+    dm4.security.write_requires_login=true
+    dm4.security.subnet_filter="0.0.0.0/0"
+2013-03-05 19:21:17,826 INFO  PluginImpl                       Registering 9 listeners of plugin "DeepaMehta 4 Access Control" at DeepaMehta 4 core service
+2013-03-05 19:21:17,827 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.accesscontrol.service.AccessControlService" at OSGi framework
+2013-03-05 19:21:17,828 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Access Control" complete -----
+2013-03-05 19:21:17,830 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 10
+2013-03-05 19:21:17,832 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Workspaces" complete -----
+2013-03-05 19:21:17,833 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 11
+2013-03-05 19:21:17,834 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:17,834 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Icon Picker" -----
+2013-03-05 19:21:17,843 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Icon Picker" in the database
+2013-03-05 19:21:17,904 INFO  MigrationManager                 Running 1 migrations for plugin "DeepaMehta 4 Icon Picker" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:17,905 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:17,905 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Icon Picker" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:17,905 INFO  MigrationManager                 Running plugin migration class de.deepamehta.plugins.iconpicker.migrations.Migration1
+2013-03-05 19:21:17,930 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:17,931 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:17,967 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Icon Picker" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:17,968 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no OSGi service provided
+2013-03-05 19:21:17,968 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Icon Picker" complete -----
+2013-03-05 19:21:17,970 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 12
+2013-03-05 19:21:17,973 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:17,973 INFO  PluginManager                    Activation of plugin "DeepaMehta 4 Access Control" ABORTED -- already activated
+2013-03-05 19:21:17,973 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:17,974 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:17,974 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Notes" -----
+2013-03-05 19:21:17,979 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Notes" in the database
+2013-03-05 19:21:18,031 INFO  MigrationManager                 Running 1 migrations for plugin "DeepaMehta 4 Notes" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:18,032 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:18,032 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Notes" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:18,032 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:18,262 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:18,263 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:18,319 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Notes" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:18,320 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Notes" ABORTED -- no OSGi service provided
+2013-03-05 19:21:18,320 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Notes" complete -----
+2013-03-05 19:21:18,322 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 13
+2013-03-05 19:21:18,322 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:18,322 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Files" -----
+2013-03-05 19:21:18,328 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Files" in the database
+2013-03-05 19:21:18,376 INFO  MigrationManager                 Running 1 migrations for plugin "DeepaMehta 4 Files" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:18,377 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:18,377 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Files" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:18,377 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:18,868 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:18,868 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:18,939 INFO  PluginImpl                       ### Publishing directory "/home/silke/Downloads/deepamehta-4.0.14-karaf/deepamehta-files" at URI namespace "/filerepo"
+2013-03-05 19:21:18,940 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Files" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:18,941 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.files.service.FilesService" at OSGi framework
+2013-03-05 19:21:18,942 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Files" complete -----
+2013-03-05 19:21:18,943 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.files" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:18,943 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 14
+2013-03-05 19:21:18,944 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Topicmaps" -----
+2013-03-05 19:21:18,944 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:18,947 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Topicmaps" in the database
+2013-03-05 19:21:18,986 INFO  MigrationManager                 Running 3 migrations for plugin "DeepaMehta 4 Topicmaps" (migrationNr=0, requiredMigrationNr=3)
+2013-03-05 19:21:18,987 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:18,987 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Topicmaps" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:18,987 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:19,274 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:19,274 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:19,284 INFO  MigrationManager                 Reading migration config file "/migrations/migration2.properties" ABORTED -- file does not exist
+2013-03-05 19:21:19,284 INFO  MigrationManager                 Running migration 2 of plugin "DeepaMehta 4 Topicmaps" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:19,284 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration2.json"
+2013-03-05 19:21:19,470 INFO  MigrationManager                 Completing migration 2 of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:19,470 INFO  MigrationManager                 Updating migration number (2)
+2013-03-05 19:21:19,477 INFO  MigrationManager                 Reading migration config file "/migrations/migration3.properties" ABORTED -- file does not exist
+2013-03-05 19:21:19,477 INFO  MigrationManager                 Running migration 3 of plugin "DeepaMehta 4 Topicmaps" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:19,477 INFO  MigrationManager                 Running plugin migration class de.deepamehta.plugins.topicmaps.migrations.Migration3
+2013-03-05 19:21:19,486 INFO  MigrationManager                 Completing migration 3 of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:19,487 INFO  MigrationManager                 Updating migration number (3)
+2013-03-05 19:21:19,690 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Topicmaps" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:19,691 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.topicmaps.service.TopicmapsService" at OSGi framework
+2013-03-05 19:21:19,691 INFO  PluginImpl                       Adding "de.deepamehta.plugins.topicmaps.service.TopicmapsService" to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:19,692 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Geomaps" -----
+2013-03-05 19:21:19,694 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Geomaps" in the database
+2013-03-05 19:21:19,722 INFO  MigrationManager                 Running 1 migrations for plugin "DeepaMehta 4 Geomaps" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:19,723 INFO  MigrationManager                 Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:19,723 INFO  MigrationManager                 Running migration 1 of plugin "DeepaMehta 4 Geomaps" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:19,723 INFO  DeepaMehtaUtils                  Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:19,829 INFO  MigrationManager                 Completing migration 1 of plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:19,830 INFO  MigrationManager                 Updating migration number (1)
+2013-03-05 19:21:19,870 INFO  TopicmapsPlugin                  ### Registering topicmap renderer "de.deepamehta.plugins.geomaps.GeomapRenderer"
+2013-03-05 19:21:19,870 INFO  PluginImpl                       Registering 3 listeners of plugin "DeepaMehta 4 Geomaps" at DeepaMehta 4 core service
+2013-03-05 19:21:19,870 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.geomaps.service.GeomapsService" at OSGi framework
+2013-03-05 19:21:19,872 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Geomaps" complete -----
+2013-03-05 19:21:19,873 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 15
+2013-03-05 19:21:19,873 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Topicmaps" complete -----
+2013-03-05 19:21:19,874 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 16
+2013-03-05 19:21:19,875 INFO  PluginManager                    ########## All Plugins Activated ##########
+2013-03-05 19:21:19,875 INFO  WebclientPlugin                  ### Launching webclient (url="http://localhost:null/de.deepamehta.webclient/")
+2013-03-05 19:21:20,126 INFO  AccessControlPlugin              ### Assigning the default user ("admin") to the default workspace ("DeepaMehta")
+2013-03-05 19:21:20,154 INFO  AccessControlPlugin              ### Assigning the default topicmap ("untitled") to the default workspace ("DeepaMehta")
+2013-03-05 19:21:20,174 INFO  AccessControlPlugin              ### Setup access control for the default topicmap ("untitled")
+2013-03-05 19:21:20,187 INFO  PluginManager                    Activation of plugin "DeepaMehta 4 Contacts" ABORTED -- already activated
+2013-03-05 19:24:23,780 INFO  AccessControlPlugin              ##### Logging in as "admin" => SUCCESSFUL!
+      ##### Creating new session 12d3iaff5n297x2kwi9p8x8kr (username=admin)
+2013-03-05 19:25:23,089 INFO  Topicmap                         Loading topicmap 2403
+2013-03-05 19:27:17,328 INFO  Neo4jStorageActivator            ========== Stopping "DeepaMehta 4 Storage - Neo4j" ==========
+2013-03-05 19:27:17,329 INFO  Neo4jStorage                     Shutdown Neo4j
+2013-03-05 19:27:17,473 INFO  CoreActivator                    Removing storage service from DeepaMehta 4 Core
+2013-03-05 19:27:17,475 INFO  GeomapsPlugin                    ========== Stopping plugin "DeepaMehta 4 Geomaps" ==========
+2013-03-05 19:27:17,476 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,476 INFO  PluginImpl                       Removing plugin service "de.deepamehta.plugins.topicmaps.service.TopicmapsService" from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,476 INFO  PluginImpl                       Removing plugin service "de.deepamehta.plugins.facets.service.FacetsService" from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,477 INFO  PluginImpl                       Unregistering listeners of plugin "DeepaMehta 4 Geomaps" at DeepaMehta 4 core service
+2013-03-05 19:27:17,477 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,477 INFO  PluginImpl                       Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,690 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,691 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,692 INFO  FacetsPlugin                     ========== Stopping plugin "DeepaMehta 4 Facets" ==========
+2013-03-05 19:27:17,692 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Facets"
+2013-03-05 19:27:17,692 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Facets"
+2013-03-05 19:27:17,692 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Facets"
+2013-03-05 19:27:17,692 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Facets"
+2013-03-05 19:27:17,693 INFO  PluginImpl                       Removing plugin service "de.deepamehta.plugins.facets.service.FacetsService" from plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:17,693 INFO  AccessControlPlugin              ========== Stopping plugin "DeepaMehta 4 Access Control" ==========
+2013-03-05 19:27:17,694 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,694 INFO  PluginImpl                       Removing plugin service "de.deepamehta.plugins.workspaces.service.WorkspacesService" from plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,694 INFO  PluginImpl                       Unregistering listeners of plugin "DeepaMehta 4 Access Control" at DeepaMehta 4 core service
+2013-03-05 19:27:17,694 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,694 INFO  PluginImpl                       Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,869 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,869 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,870 INFO  PluginActivator                  ========== Stopping plugin "DeepaMehta 4 Help" ==========
+2013-03-05 19:27:17,871 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Help"
+2013-03-05 19:27:17,871 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Help"
+2013-03-05 19:27:17,871 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Help"
+2013-03-05 19:27:17,871 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Help"
+2013-03-05 19:27:17,871 INFO  PluginActivator                  ========== Stopping plugin "DeepaMehta 4 File Manager" ==========
+2013-03-05 19:27:17,872 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:27:17,872 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:27:17,872 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:27:17,872 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:27:17,872 INFO  FilesPlugin                      ========== Stopping plugin "DeepaMehta 4 Files" ==========
+2013-03-05 19:27:17,873 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:17,873 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:17,873 INFO  PluginImpl                       Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:18,018 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:18,019 INFO  PluginImpl                       Unregistering Directory resource of plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:18,019 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:18,020 INFO  TopicmapsPlugin                  ========== Stopping plugin "DeepaMehta 4 Topicmaps" ==========
+2013-03-05 19:27:18,021 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,021 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,021 INFO  PluginImpl                       Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,173 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,173 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,174 INFO  PluginActivator                  ========== Stopping plugin "DeepaMehta 4 Type Search" ==========
+2013-03-05 19:27:18,175 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:27:18,175 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:27:18,175 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:27:18,175 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:27:18,175 INFO  PluginActivator                  ========== Stopping plugin "DeepaMehta 4 Icon Picker" ==========
+2013-03-05 19:27:18,176 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:27:18,176 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:27:18,176 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:27:18,176 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:27:18,177 INFO  TypeEditorPlugin                 ========== Stopping plugin "DeepaMehta 4 Type Editor" ==========
+2013-03-05 19:27:18,177 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:27:18,177 INFO  PluginImpl                       Unregistering listeners of plugin "DeepaMehta 4 Type Editor" at DeepaMehta 4 core service
+2013-03-05 19:27:18,177 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:27:18,177 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:27:18,177 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:27:18,178 INFO  WorkspacesPlugin                 ========== Stopping plugin "DeepaMehta 4 Workspaces" ==========
+2013-03-05 19:27:18,178 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:18,178 INFO  PluginImpl                       Unregistering listeners of plugin "DeepaMehta 4 Workspaces" at DeepaMehta 4 core service
+2013-03-05 19:27:18,178 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:18,178 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:18,179 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:18,180 INFO  PluginActivator                  ========== Stopping plugin "DeepaMehta 4 Contacts" ==========
+2013-03-05 19:27:18,180 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:27:18,180 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:27:18,180 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:27:18,180 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:27:18,181 INFO  PluginActivator                  ========== Stopping plugin "DeepaMehta 4 Notes" ==========
+2013-03-05 19:27:18,181 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Notes"
+2013-03-05 19:27:18,181 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Notes"
+2013-03-05 19:27:18,181 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Notes"
+2013-03-05 19:27:18,181 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Notes"
+2013-03-05 19:27:18,182 INFO  PluginActivator                  ========== Stopping plugin "DeepaMehta 4 Webbrowser" ==========
+2013-03-05 19:27:18,182 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:27:18,182 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:27:18,182 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:27:18,183 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:27:18,183 INFO  WebclientPlugin                  ========== Stopping plugin "DeepaMehta 4 Webclient" ==========
+2013-03-05 19:27:18,183 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,183 INFO  PluginImpl                       Unregistering listeners of plugin "DeepaMehta 4 Webclient" at DeepaMehta 4 core service
+2013-03-05 19:27:18,184 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,184 INFO  PluginImpl                       Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,279 INFO  PluginImpl                       Unregistering Web resources of plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,280 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,280 INFO  WebservicePlugin                 ========== Stopping plugin "DeepaMehta 4 Webservice" ==========
+2013-03-05 19:27:18,280 INFO  PluginImpl                       Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:27:18,280 INFO  PluginImpl                       Removing Web Publishing service from plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:27:18,280 INFO  PluginImpl                       Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:27:18,281 INFO  PluginImpl                       Removing Event Admin service from plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:27:18,281 INFO  CoreActivator                    ========== Stopping "DeepaMehta 4 Core" ==========
+2013-03-05 19:27:18,281 INFO  CoreActivator                    Removing HTTP service from DeepaMehta 4 Core
+2013-03-05 19:28:06,454 INFO  CoreActivator                    ========== Starting "DeepaMehta 4 Core" ==========
+2013-03-05 19:28:06,497 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webservice" ABORTED -- file does not exist
+2013-03-05 19:28:06,531 INFO  WebservicePlugin                 ========== Starting plugin "DeepaMehta 4 Webservice" ==========
+2013-03-05 19:28:06,551 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Webservice" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,552 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:28:06,590 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:28:06,729 INFO  WebclientPlugin                  ========== Starting plugin "DeepaMehta 4 Webclient" ==========
+2013-03-05 19:28:06,731 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Webclient" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,732 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:28:06,767 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:06,767 INFO  CoreActivator                    Adding HTTP service to DeepaMehta 4 Core
+2013-03-05 19:28:06,768 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Webbrowser" ==========
+2013-03-05 19:28:06,778 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Webbrowser" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,784 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:06,800 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:06,801 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Notes" ==========
+2013-03-05 19:28:06,812 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Notes" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,813 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:06,829 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:06,830 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Contacts" ==========
+2013-03-05 19:28:06,842 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Contacts" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,843 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:06,878 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:06,879 INFO  WorkspacesPlugin                 ========== Starting plugin "DeepaMehta 4 Workspaces" ==========
+2013-03-05 19:28:06,943 INFO  PluginImpl                       Tracking 1 plugin services for plugin "DeepaMehta 4 Workspaces" [de.deepamehta.plugins.facets.service.FacetsService]
+2013-03-05 19:28:06,945 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:06,960 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:06,962 INFO  TypeEditorPlugin                 ========== Starting plugin "DeepaMehta 4 Type Editor" ==========
+2013-03-05 19:28:06,967 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Type Editor" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,976 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:06,992 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:06,994 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Icon Picker" ==========
+2013-03-05 19:28:07,007 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Icon Picker" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,009 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:07,045 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Type Search" ABORTED -- file does not exist
+2013-03-05 19:28:07,046 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Type Search" ==========
+2013-03-05 19:28:07,046 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Type Search" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,047 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:28:07,083 INFO  TopicmapsPlugin                  ### Registering topicmap renderer "de.deepamehta.plugins.topicmaps.DefaultTopicmapRenderer"
+2013-03-05 19:28:07,084 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:07,086 INFO  TopicmapsPlugin                  ========== Starting plugin "DeepaMehta 4 Topicmaps" ==========
+2013-03-05 19:28:07,094 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Topicmaps" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,095 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:07,157 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:07,159 INFO  FilesPlugin                      ========== Starting plugin "DeepaMehta 4 Files" ==========
+2013-03-05 19:28:07,189 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Files" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,191 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:07,200 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 File Manager" ABORTED -- file does not exist
+2013-03-05 19:28:07,201 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 File Manager" ==========
+2013-03-05 19:28:07,201 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 File Manager" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,208 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:28:07,221 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Help" ABORTED -- file does not exist
+2013-03-05 19:28:07,223 INFO  PluginActivator                  ========== Starting plugin "DeepaMehta 4 Help" ==========
+2013-03-05 19:28:07,224 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Help" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,225 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:28:07,265 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:07,280 INFO  AccessControlPlugin              ========== Starting plugin "DeepaMehta 4 Access Control" ==========
+2013-03-05 19:28:07,295 INFO  PluginImpl                       Tracking 1 plugin services for plugin "DeepaMehta 4 Access Control" [de.deepamehta.plugins.workspaces.service.WorkspacesService]
+2013-03-05 19:28:07,297 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:07,300 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Facets"
+2013-03-05 19:28:07,301 INFO  FacetsPlugin                     ========== Starting plugin "DeepaMehta 4 Facets" ==========
+2013-03-05 19:28:07,303 INFO  PluginImpl                       Tracking plugin services for plugin "DeepaMehta 4 Facets" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,304 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:28:07,359 INFO  PluginImpl                       Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:07,362 INFO  GeomapsPlugin                    ========== Starting plugin "DeepaMehta 4 Geomaps" ==========
+2013-03-05 19:28:07,374 INFO  PluginImpl                       Tracking 2 plugin services for plugin "DeepaMehta 4 Geomaps" [de.deepamehta.plugins.topicmaps.service.TopicmapsService, de.deepamehta.plugins.facets.service.FacetsService]
+2013-03-05 19:28:07,380 INFO  PluginImpl                       Adding Event Admin service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:07,406 INFO  Neo4jStorageActivator            ========== Starting "DeepaMehta 4 Storage - Neo4j" ==========
+2013-03-05 19:28:08,217 INFO  Neo4jStorageActivator            Registering DeepaMehta 4 storage service - Neo4j - at OSGi framework
+2013-03-05 19:28:08,219 INFO  CoreActivator                    Adding storage service to DeepaMehta 4 Core
+2013-03-05 19:28:08,281 INFO  EmbeddedService                  ----- Setting up the database -----
+2013-03-05 19:28:08,305 INFO  MigrationManager                 Running core migrations ABORTED -- everything up-to-date (migrationNr=3)
+2013-03-05 19:28:08,305 INFO  EmbeddedService                  ----- Setting up the database complete -----
+2013-03-05 19:28:08,305 INFO  CoreActivator                    Registering DeepaMehta 4 core service at OSGi framework
+2013-03-05 19:28:08,315 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:08,331 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:28:08,332 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:08,333 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:28:08,334 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:28:08,340 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:08,341 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:08,342 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:28:08,343 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:08,344 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:08,344 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:08,345 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:08,346 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:08,347 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:08,360 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:28:08,361 INFO  PluginImpl                       Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:28:08,370 INFO  WebPublishingService             Setting up the Web Publishing service
+2013-03-05 19:28:08,546 INFO  CoreActivator                    Registering Web Publishing service at OSGi framework
+2013-03-05 19:28:08,549 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:08,549 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Geomaps" at URI namespace "/de.deepamehta.geomaps"
+2013-03-05 19:28:08,565 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Geomaps" at URI namespace "/geomap"
+2013-03-05 19:28:08,566 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Geomaps" ABORTED -- no provider classes provided
+2013-03-05 19:28:09,793 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:28:09,793 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Facets" at URI namespace "/de.deepamehta.facets"
+2013-03-05 19:28:09,793 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Facets" ABORTED -- no REST resources provided
+2013-03-05 19:28:09,794 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Facets" ABORTED -- no provider classes provided
+2013-03-05 19:28:09,794 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Facets" -----
+2013-03-05 19:28:09,963 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Facets" in the database ABORTED -- already installed
+2013-03-05 19:28:09,963 INFO  TypeCache                        Loading topic type "dm4.core.plugin"
+2013-03-05 19:28:10,027 INFO  DeepaMehtaUtils                  Host setting:
+    dm4.host.url="http://localhost:8080/"
+2013-03-05 19:28:10,072 INFO  TypeCache                        Loading topic type "dm4.webclient.view_config"
+2013-03-05 19:28:10,265 INFO  TypeCache                        Loading topic type "dm4.webclient.icon"
+2013-03-05 19:28:10,308 INFO  TypeCache                        Loading topic type "dm4.webclient.simple_renderer_uri"
+2013-03-05 19:28:10,365 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Facets" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:10,365 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Facets" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:10,366 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.facets.service.FacetsService" at OSGi framework
+2013-03-05 19:28:10,366 INFO  PluginImpl                       Adding "de.deepamehta.plugins.facets.service.FacetsService" to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:10,367 INFO  PluginImpl                       Adding "de.deepamehta.plugins.facets.service.FacetsService" to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:10,368 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Facets" complete -----
+2013-03-05 19:28:10,372 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 1
+2013-03-05 19:28:10,373 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:10,373 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Access Control" at URI namespace "/de.deepamehta.accesscontrol"
+2013-03-05 19:28:10,374 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Access Control" at URI namespace "/accesscontrol"
+2013-03-05 19:28:10,376 INFO  PluginImpl                       Registering 2 provider classes of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:10,827 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:28:10,827 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Help" at URI namespace "/de.deepamehta.help"
+2013-03-05 19:28:10,827 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Help" ABORTED -- no REST resources provided
+2013-03-05 19:28:10,828 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Help" ABORTED -- no provider classes provided
+2013-03-05 19:28:10,828 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Help" -----
+2013-03-05 19:28:10,832 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Help" in the database ABORTED -- already installed
+2013-03-05 19:28:10,841 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Help" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:28:10,841 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Help" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:10,842 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Help" ABORTED -- no OSGi service provided
+2013-03-05 19:28:10,842 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Help" complete -----
+2013-03-05 19:28:10,845 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 2
+2013-03-05 19:28:10,846 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:28:10,846 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 File Manager" at URI namespace "/de.deepamehta.filemanager"
+2013-03-05 19:28:10,846 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 File Manager" ABORTED -- no REST resources provided
+2013-03-05 19:28:10,846 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 File Manager" ABORTED -- no provider classes provided
+2013-03-05 19:28:10,846 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 File Manager" -----
+2013-03-05 19:28:10,849 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 File Manager" in the database ABORTED -- already installed
+2013-03-05 19:28:10,857 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 File Manager" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:28:10,857 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 File Manager" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:10,857 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 File Manager" ABORTED -- no OSGi service provided
+2013-03-05 19:28:10,858 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 File Manager" complete -----
+2013-03-05 19:28:10,861 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 3
+2013-03-05 19:28:10,861 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:10,862 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Files" at URI namespace "/de.deepamehta.files"
+2013-03-05 19:28:10,863 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Files" at URI namespace "/files"
+2013-03-05 19:28:10,864 INFO  PluginImpl                       Registering 1 provider classes of plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:11,236 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:11,236 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Topicmaps" at URI namespace "/de.deepamehta.topicmaps"
+2013-03-05 19:28:11,236 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Topicmaps" at URI namespace "/topicmap"
+2013-03-05 19:28:11,237 INFO  PluginImpl                       Registering 1 provider classes of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:11,691 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:28:11,691 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Type Search" at URI namespace "/de.deepamehta.typesearch"
+2013-03-05 19:28:11,691 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Type Search" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,691 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Type Search" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,691 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Type Search" -----
+2013-03-05 19:28:11,693 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Type Search" in the database ABORTED -- already installed
+2013-03-05 19:28:11,695 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Type Search" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:28:11,696 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Type Search" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:11,696 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Type Search" ABORTED -- no OSGi service provided
+2013-03-05 19:28:11,696 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Type Search" complete -----
+2013-03-05 19:28:11,698 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 4
+2013-03-05 19:28:11,699 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:11,699 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Icon Picker" at URI namespace "/de.deepamehta.iconpicker"
+2013-03-05 19:28:11,699 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,699 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,700 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:11,700 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Type Editor" at URI namespace "/de.deepamehta.typeeditor"
+2013-03-05 19:28:11,700 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Type Editor" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,700 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Type Editor" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,700 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:11,701 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Workspaces" at URI namespace "/de.deepamehta.workspaces"
+2013-03-05 19:28:11,701 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Workspaces" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,701 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Workspaces" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,701 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:11,701 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Contacts" at URI namespace "/de.deepamehta.contacts"
+2013-03-05 19:28:11,702 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Contacts" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,702 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Contacts" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,702 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:11,702 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Notes" at URI namespace "/de.deepamehta.notes"
+2013-03-05 19:28:11,702 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Notes" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,703 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Notes" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,703 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:11,703 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Webbrowser" at URI namespace "/de.deepamehta.webbrowser"
+2013-03-05 19:28:11,703 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,703 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,704 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:28:11,704 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Webclient" at URI namespace "/de.deepamehta.webclient"
+2013-03-05 19:28:11,705 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Webclient" at URI namespace "/webclient"
+2013-03-05 19:28:11,705 INFO  PluginImpl                       Registering provider classes of plugin "DeepaMehta 4 Webclient" ABORTED -- no provider classes provided
+2013-03-05 19:28:12,138 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Webclient" -----
+2013-03-05 19:28:12,143 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Webclient" in the database ABORTED -- already installed
+2013-03-05 19:28:12,145 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Webclient" ABORTED -- everything up-to-date (migrationNr=2)
+2013-03-05 19:28:12,150 INFO  PluginImpl                       Registering 3 listeners of plugin "DeepaMehta 4 Webclient" at DeepaMehta 4 core service
+2013-03-05 19:28:12,150 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Webclient" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,151 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Webclient" complete -----
+2013-03-05 19:28:12,152 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:12,154 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 5
+2013-03-05 19:28:12,154 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Files" -----
+2013-03-05 19:28:12,155 INFO  PluginImpl                       Adding Web Publishing service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:28:12,155 INFO  PluginImpl                       Registering Web resources of plugin "DeepaMehta 4 Webservice" ABORTED -- no Web resources provided
+2013-03-05 19:28:12,158 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Files" in the database ABORTED -- already installed
+2013-03-05 19:28:12,159 INFO  PluginImpl                       Registering REST resources of plugin "DeepaMehta 4 Webservice" at URI namespace "/core"
+2013-03-05 19:28:12,163 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Files" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,163 INFO  PluginImpl                       ### Publishing directory "/home/silke/Downloads/deepamehta-4.0.14-karaf/deepamehta-files" at URI namespace "/filerepo"
+2013-03-05 19:28:12,164 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Files" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,165 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.files.service.FilesService" at OSGi framework
+2013-03-05 19:28:12,168 INFO  PluginImpl                       Registering 10 provider classes of plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:28:12,168 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Files" complete -----
+2013-03-05 19:28:12,170 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 6
+2013-03-05 19:28:12,172 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:12,173 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.files" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:12,173 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Topicmaps" -----
+2013-03-05 19:28:12,175 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Topicmaps" in the database ABORTED -- already installed
+2013-03-05 19:28:12,178 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Topicmaps" ABORTED -- everything up-to-date (migrationNr=3)
+2013-03-05 19:28:12,178 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Topicmaps" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,178 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.topicmaps.service.TopicmapsService" at OSGi framework
+2013-03-05 19:28:12,179 INFO  PluginImpl                       Adding "de.deepamehta.plugins.topicmaps.service.TopicmapsService" to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:12,179 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Geomaps" -----
+2013-03-05 19:28:12,181 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Geomaps" in the database ABORTED -- already installed
+2013-03-05 19:28:12,184 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Geomaps" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,185 INFO  TopicmapsPlugin                  ### Registering topicmap renderer "de.deepamehta.plugins.geomaps.GeomapRenderer"
+2013-03-05 19:28:12,185 INFO  PluginImpl                       Registering 3 listeners of plugin "DeepaMehta 4 Geomaps" at DeepaMehta 4 core service
+2013-03-05 19:28:12,185 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.geomaps.service.GeomapsService" at OSGi framework
+2013-03-05 19:28:12,188 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Geomaps" complete -----
+2013-03-05 19:28:12,191 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 7
+2013-03-05 19:28:12,193 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Topicmaps" complete -----
+2013-03-05 19:28:12,195 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 8
+2013-03-05 19:28:12,196 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:12,196 INFO  PluginManager                    Activation of plugin "DeepaMehta 4 Topicmaps" ABORTED -- already activated
+2013-03-05 19:28:12,197 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Icon Picker" -----
+2013-03-05 19:28:12,200 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Icon Picker" in the database ABORTED -- already installed
+2013-03-05 19:28:12,205 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Icon Picker" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,205 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Icon Picker" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,205 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,206 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Icon Picker" complete -----
+2013-03-05 19:28:12,216 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 9
+2013-03-05 19:28:12,218 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:12,218 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Type Editor" -----
+2013-03-05 19:28:12,221 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Type Editor" in the database ABORTED -- already installed
+2013-03-05 19:28:12,223 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Type Editor" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,223 INFO  PluginImpl                       Registering 2 listeners of plugin "DeepaMehta 4 Type Editor" at DeepaMehta 4 core service
+2013-03-05 19:28:12,223 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Type Editor" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,223 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Type Editor" complete -----
+2013-03-05 19:28:12,226 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 10
+2013-03-05 19:28:12,226 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:12,227 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:12,227 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Notes" -----
+2013-03-05 19:28:12,229 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Notes" in the database ABORTED -- already installed
+2013-03-05 19:28:12,231 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Notes" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,231 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Notes" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,232 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Notes" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,232 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Notes" complete -----
+2013-03-05 19:28:12,234 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 11
+2013-03-05 19:28:12,234 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:12,235 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Workspaces" -----
+2013-03-05 19:28:12,241 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Workspaces" in the database ABORTED -- already installed
+2013-03-05 19:28:12,244 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Workspaces" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,244 INFO  PluginImpl                       Registering 3 listeners of plugin "DeepaMehta 4 Workspaces" at DeepaMehta 4 core service
+2013-03-05 19:28:12,244 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.workspaces.service.WorkspacesService" at OSGi framework
+2013-03-05 19:28:12,245 INFO  PluginImpl                       Adding "de.deepamehta.plugins.workspaces.service.WorkspacesService" to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:12,245 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Access Control" -----
+2013-03-05 19:28:12,251 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Access Control" in the database ABORTED -- already installed
+2013-03-05 19:28:12,254 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Access Control" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,255 INFO  AccessControlPlugin              Security settings:
+    dm4.security.read_requires_login=true
+    dm4.security.write_requires_login=true
+    dm4.security.subnet_filter="0.0.0.0/0"
+2013-03-05 19:28:12,258 INFO  PluginImpl                       Registering 9 listeners of plugin "DeepaMehta 4 Access Control" at DeepaMehta 4 core service
+2013-03-05 19:28:12,258 INFO  PluginImpl                       Registering service "de.deepamehta.plugins.accesscontrol.service.AccessControlService" at OSGi framework
+2013-03-05 19:28:12,261 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Access Control" complete -----
+2013-03-05 19:28:12,263 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 12
+2013-03-05 19:28:12,266 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Workspaces" complete -----
+2013-03-05 19:28:12,269 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 13
+2013-03-05 19:28:12,269 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:12,269 INFO  PluginManager                    Activation of plugin "DeepaMehta 4 Access Control" ABORTED -- already activated
+2013-03-05 19:28:12,270 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:12,270 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Webbrowser" -----
+2013-03-05 19:28:12,271 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Webbrowser" in the database ABORTED -- already installed
+2013-03-05 19:28:12,274 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Webbrowser" ABORTED -- everything up-to-date (migrationNr=2)
+2013-03-05 19:28:12,274 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Webbrowser" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,275 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,275 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Webbrowser" complete -----
+2013-03-05 19:28:12,276 INFO  PluginImpl                       Handling PLUGIN_ACTIVATED event from "de.deepamehta.webbrowser" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:12,278 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 14
+2013-03-05 19:28:12,278 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Contacts" -----
+2013-03-05 19:28:12,281 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Contacts" in the database ABORTED -- already installed
+2013-03-05 19:28:12,284 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Contacts" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,284 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Contacts" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,285 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Contacts" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,285 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Contacts" complete -----
+2013-03-05 19:28:12,287 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 15
+2013-03-05 19:28:12,635 INFO  PluginManager                    ----- Activating plugin "DeepaMehta 4 Webservice" -----
+2013-03-05 19:28:12,637 INFO  PluginImpl                       Installing plugin "DeepaMehta 4 Webservice" in the database ABORTED -- already installed
+2013-03-05 19:28:12,638 INFO  MigrationManager                 Running migrations for plugin "DeepaMehta 4 Webservice" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:28:12,639 INFO  PluginImpl                       Registering listeners of plugin "DeepaMehta 4 Webservice" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,639 INFO  PluginImpl                       Registering OSGi service of plugin "DeepaMehta 4 Webservice" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,639 INFO  PluginManager                    ----- Activation of plugin "DeepaMehta 4 Webservice" complete -----
+2013-03-05 19:28:12,641 INFO  PluginManager                    ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 16
+2013-03-05 19:28:12,641 INFO  PluginManager                    ########## All Plugins Activated ##########
+2013-03-05 19:28:12,641 INFO  WebclientPlugin                  ### Launching webclient (url="http://localhost:null/de.deepamehta.webclient/")
+2013-03-05 19:28:12,805 INFO  TypeCache                        Loading topic type "dm4.workspaces.workspace_facet"
+2013-03-05 19:28:12,828 INFO  TypeCache                        Loading topic type "dm4.workspaces.workspace"
+2013-03-05 19:28:12,866 INFO  TypeCache                        Loading topic type "dm4.webclient.is_searchable_unit"
+2013-03-05 19:28:12,885 INFO  TypeCache                        Loading topic type "dm4.workspaces.name"
+2013-03-05 19:28:12,897 INFO  AccessControlPlugin              ### Assigning the default user ("admin") to a workspace ABORTED -- already assigned ("DeepaMehta")
+2013-03-05 19:28:12,903 INFO  AccessControlPlugin              ### Assigning the default topicmap ("untitled") to a workspace ABORTED -- already assigned ("DeepaMehta")
+2013-03-05 19:28:12,904 INFO  AccessControlPlugin              ### Setup access control for the default topicmap ("untitled") ABORTED -- already setup

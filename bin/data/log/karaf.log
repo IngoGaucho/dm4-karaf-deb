@@ -1,0 +1,1222 @@
+05.03.2013 19:21:03 org.apache.karaf.main.SimpleFileLock lock
+INFO: locking
+2013-03-05 19:21:04,073 INFO  FelixStartLevel  BlueprintExtender                org.apache.aries.blueprint No quiesce support is available, so blueprint components will not participate in quiesce operations
+2013-03-05 19:21:04,302 INFO  FelixStartLevel  core                             org.apache.aries.jmx.core Starting JMX OSGi agent
+2013-03-05 19:21:04,324 INFO  FelixStartLevel  core                             org.apache.aries.jmx.core Registering MBean with ObjectName [osgi.compendium:service=cm,version=1.3] for service with service.id [10]
+2013-03-05 19:21:04,330 WARN  JMX OSGi Agent   core                             org.apache.aries.jmx.core There are no MBean servers registred, can't register MBeans
+2013-03-05 19:21:04,419 INFO  rint Extender: 1 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.admin.management is waiting for dependencies [(objectClass=javax.management.MBeanServer), (objectClass=org.apache.karaf.admin.AdminService)]
+2013-03-05 19:21:04,425 INFO  rint Extender: 1 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.shell.dev is waiting for namespace handlers [http://karaf.apache.org/xmlns/shell/v1.0.0]
+2013-03-05 19:21:04,466 INFO  rint Extender: 3 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.diagnostic.management is waiting for dependencies [(objectClass=javax.management.MBeanServer)]
+2013-03-05 19:21:04,474 INFO  rint Extender: 3 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.jaas.command is waiting for namespace handlers [http://karaf.apache.org/xmlns/shell/v1.0.0]
+2013-03-05 19:21:04,701 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.compendium:service=cm,version=1.3
+2013-03-05 19:21:04,702 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.core:type=packageState,version=1.5
+2013-03-05 19:21:04,702 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.core:type=bundleState,version=1.5
+2013-03-05 19:21:04,705 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.core:type=serviceState,version=1.5
+2013-03-05 19:21:04,706 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.core:type=framework,version=1.5
+2013-03-05 19:21:05,130 INFO  rint Extender: 2 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.admin.command is waiting for dependencies [(objectClass=org.apache.karaf.admin.AdminService)]
+2013-03-05 19:21:05,268 INFO  rint Extender: 3 KarArtifactInstaller             org.apache.karaf.deployer.kar Karaf archives will be extracted to /home/silke/Downloads/deepamehta-4.0.14-karaf/system
+2013-03-05 19:21:05,268 INFO  rint Extender: 3 KarArtifactInstaller             org.apache.karaf.deployer.kar Timestamps for Karaf archives will be extracted to /home/silke/Downloads/deepamehta-4.0.14-karaf/system/.timestamps
+2013-03-05 19:21:05,622 INFO  rint Extender: 2 SecurityUtils                    org.apache.sshd.core BouncyCastle not registered, using the default JCE provider
+2013-03-05 19:21:06,287 INFO  Thread-6         log                              org.apache.felix.http.jetty Logging to org.ops4j.pax.logging.slf4j.Slf4jLogger@26114629 via org.mortbay.log.Slf4jLog
+2013-03-05 19:21:06,326 INFO  Thread-6         CoreActivator                    de.deepamehta.core ========== Starting "DeepaMehta 4 Core" ==========
+2013-03-05 19:21:06,360 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webservice" ABORTED -- file does not exist
+2013-03-05 19:21:06,377 INFO  Thread-6         WebservicePlugin                 de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Webservice" ==========
+2013-03-05 19:21:06,388 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Webservice" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,390 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:21:06,422 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:06,431 INFO  Thread-6         WebclientPlugin                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Webclient" ==========
+2013-03-05 19:21:06,432 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Webclient" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,433 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:06,462 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:06,463 INFO  Thread-6         PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Webbrowser" ==========
+2013-03-05 19:21:06,476 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Webbrowser" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,478 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:06,492 INFO  tty HTTP Service CoreActivator                    de.deepamehta.core Adding HTTP service to DeepaMehta 4 Core
+2013-03-05 19:21:06,507 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:06,508 INFO  Thread-6         PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Notes" ==========
+2013-03-05 19:21:06,511 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Notes" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,516 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:06,527 INFO  tty HTTP Service jetty                            org.apache.felix.http.jetty Started jetty 6.1.x at port(s) HTTP:8080
+2013-03-05 19:21:06,535 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:06,536 INFO  Thread-6         PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Contacts" ==========
+2013-03-05 19:21:06,549 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Contacts" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,552 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:06,566 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:06,567 INFO  Thread-6         WorkspacesPlugin                 de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Workspaces" ==========
+2013-03-05 19:21:06,583 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking 1 plugin services for plugin "DeepaMehta 4 Workspaces" [de.deepamehta.plugins.facets.service.FacetsService]
+2013-03-05 19:21:06,585 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:06,596 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:06,597 INFO  Thread-6         TypeEditorPlugin                 de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Type Editor" ==========
+2013-03-05 19:21:06,600 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Type Editor" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,602 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:06,607 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:06,609 INFO  Thread-6         PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Icon Picker" ==========
+2013-03-05 19:21:06,622 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Icon Picker" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,624 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:06,630 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Type Search" ABORTED -- file does not exist
+2013-03-05 19:21:06,631 INFO  Thread-6         PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Type Search" ==========
+2013-03-05 19:21:06,631 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Type Search" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,632 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:21:06,645 INFO  Thread-6         TopicmapsPlugin                  de.deepamehta.topicmaps ### Registering topicmap renderer "de.deepamehta.plugins.topicmaps.DefaultTopicmapRenderer"
+2013-03-05 19:21:06,646 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:06,648 INFO  Thread-6         TopicmapsPlugin                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Topicmaps" ==========
+2013-03-05 19:21:06,652 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Topicmaps" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,653 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:06,670 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:06,672 INFO  Thread-6         FilesPlugin                      de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Files" ==========
+2013-03-05 19:21:06,677 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Files" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,678 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:06,690 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 File Manager" ABORTED -- file does not exist
+2013-03-05 19:21:06,691 INFO  Thread-6         PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 File Manager" ==========
+2013-03-05 19:21:06,691 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 File Manager" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,692 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:21:06,704 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Help" ABORTED -- file does not exist
+2013-03-05 19:21:06,705 INFO  Thread-6         PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Help" ==========
+2013-03-05 19:21:06,705 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Help" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,706 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:21:06,729 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:06,731 INFO  Thread-6         AccessControlPlugin              de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Access Control" ==========
+2013-03-05 19:21:06,737 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking 1 plugin services for plugin "DeepaMehta 4 Access Control" [de.deepamehta.plugins.workspaces.service.WorkspacesService]
+2013-03-05 19:21:06,738 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:06,743 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:06,744 INFO  Thread-6         FacetsPlugin                     de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Facets" ==========
+2013-03-05 19:21:06,746 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Facets" ABORTED -- no consumed services declared
+2013-03-05 19:21:06,747 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:06,764 INFO  Thread-6         PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:06,767 INFO  Thread-6         GeomapsPlugin                    de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Geomaps" ==========
+2013-03-05 19:21:06,770 INFO  Thread-6         PluginImpl                       de.deepamehta.core Tracking 2 plugin services for plugin "DeepaMehta 4 Geomaps" [de.deepamehta.plugins.topicmaps.service.TopicmapsService, de.deepamehta.plugins.facets.service.FacetsService]
+2013-03-05 19:21:06,771 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:06,845 INFO  Thread-6         Neo4jStorageActivator            de.deepamehta.storage-neo4j ========== Starting "DeepaMehta 4 Storage - Neo4j" ==========
+2013-03-05 19:21:07,472 INFO  Thread-6         Neo4jStorageActivator            de.deepamehta.storage-neo4j Registering DeepaMehta 4 storage service - Neo4j - at OSGi framework
+2013-03-05 19:21:07,473 INFO  Thread-6         CoreActivator                    de.deepamehta.core Adding storage service to DeepaMehta 4 Core
+2013-03-05 19:21:07,499 INFO  Thread-6         EmbeddedService                  de.deepamehta.core ----- Setting up the database -----
+2013-03-05 19:21:07,686 INFO  Thread-6         StorageDecorator                 de.deepamehta.core Starting with a fresh DB -- Setting migration number to 0
+2013-03-05 19:21:08,139 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running 3 core migrations (migrationNr=0, requiredMigrationNr=3)
+2013-03-05 19:21:08,141 INFO  Thread-6         MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:08,142 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running core migration 1 (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:08,144 INFO  Thread-6         DeepaMehtaUtils                  de.deepamehta.core Host setting:
+    dm4.host.url="http://localhost:8080/"
+2013-03-05 19:21:08,145 INFO  Thread-6         DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:08,197 INFO  Thread-6         TypeCache                        de.deepamehta.core Loading topic type "dm4.core.topic_type"
+2013-03-05 19:21:08,315 INFO  Thread-6         TypeCache                        de.deepamehta.core Loading association type "dm4.core.aggregation"
+2013-03-05 19:21:08,475 INFO  Thread-6         TypeCache                        de.deepamehta.core Loading topic type "dm4.core.assoc_type"
+2013-03-05 19:21:08,743 INFO  Thread-6         TypeCache                        de.deepamehta.core Loading topic type "dm4.core.data_type"
+2013-03-05 19:21:09,080 INFO  Thread-6         TypeCache                        de.deepamehta.core Loading topic type "dm4.core.role_type"
+2013-03-05 19:21:09,739 INFO  Thread-6         MigrationManager                 de.deepamehta.core Completing core migration 1
+2013-03-05 19:21:09,739 INFO  Thread-6         MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:09,747 INFO  Thread-6         MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration2.properties" ABORTED -- file does not exist
+2013-03-05 19:21:09,747 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running core migration 2 (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:09,748 INFO  Thread-6         DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration2.json"
+2013-03-05 19:21:09,859 INFO  Thread-6         TypeCache                        de.deepamehta.core Loading association type "dm4.core.composition_def"
+2013-03-05 19:21:10,280 INFO  Thread-6         MigrationManager                 de.deepamehta.core Completing core migration 2
+2013-03-05 19:21:10,281 INFO  Thread-6         MigrationManager                 de.deepamehta.core Updating migration number (2)
+2013-03-05 19:21:10,282 INFO  Thread-6         MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration3.properties" ABORTED -- file does not exist
+2013-03-05 19:21:10,282 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running core migration 3 (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:10,282 INFO  Thread-6         DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration3.json"
+2013-03-05 19:21:10,776 INFO  Thread-6         MigrationManager                 de.deepamehta.core Completing core migration 3
+2013-03-05 19:21:10,776 INFO  Thread-6         MigrationManager                 de.deepamehta.core Updating migration number (3)
+2013-03-05 19:21:11,015 INFO  Thread-6         EmbeddedService                  de.deepamehta.core ----- Setting up the database complete -----
+2013-03-05 19:21:11,016 INFO  Thread-6         CoreActivator                    de.deepamehta.core Registering DeepaMehta 4 core service at OSGi framework
+2013-03-05 19:21:11,017 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:11,017 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:11,017 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:11,018 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:21:11,018 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:21:11,019 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:11,019 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:11,019 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:21:11,019 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:11,020 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:11,020 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:11,020 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:11,021 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:11,021 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:11,021 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:11,022 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:21:11,025 INFO  Thread-6         WebPublishingService             de.deepamehta.core Setting up the Web Publishing service
+2013-03-05 19:21:11,065 INFO  Thread-6         CoreActivator                    de.deepamehta.core Registering Web Publishing service at OSGi framework
+2013-03-05 19:21:11,066 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:11,067 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Geomaps" at URI namespace "/de.deepamehta.geomaps"
+2013-03-05 19:21:11,102 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Geomaps" at URI namespace "/geomap"
+2013-03-05 19:21:11,103 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Geomaps" ABORTED -- no provider classes provided
+2013-03-05 19:21:11,266 INFO  Thread-6         WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:21:11,911 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:11,912 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Facets" at URI namespace "/de.deepamehta.facets"
+2013-03-05 19:21:11,912 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Facets" ABORTED -- no REST resources provided
+2013-03-05 19:21:11,912 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Facets" ABORTED -- no provider classes provided
+2013-03-05 19:21:11,912 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Facets" -----
+2013-03-05 19:21:11,919 INFO  Thread-6         PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Facets" in the database
+2013-03-05 19:21:11,995 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running 1 migrations for plugin "DeepaMehta 4 Facets" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:11,996 INFO  Thread-6         MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:11,996 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Facets" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:11,996 INFO  Thread-6         DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:12,003 INFO  Thread-6         MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Facets"
+2013-03-05 19:21:12,003 INFO  Thread-6         MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:12,021 INFO  Thread-6         TypeCache                        de.deepamehta.core Loading topic type "dm4.core.meta_type"
+2013-03-05 19:21:12,055 INFO  Thread-6         TypeCache                        de.deepamehta.core Loading association type "dm4.core.instantiation"
+2013-03-05 19:21:12,090 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Facets" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:12,090 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.facets.service.FacetsService" at OSGi framework
+2013-03-05 19:21:12,090 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding "de.deepamehta.plugins.facets.service.FacetsService" to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:12,091 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding "de.deepamehta.plugins.facets.service.FacetsService" to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:12,091 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Facets" complete -----
+2013-03-05 19:21:12,096 INFO  Thread-6         PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 1
+2013-03-05 19:21:12,097 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:12,097 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Access Control" at URI namespace "/de.deepamehta.accesscontrol"
+2013-03-05 19:21:12,098 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Access Control" at URI namespace "/accesscontrol"
+2013-03-05 19:21:12,099 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering 2 provider classes of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:12,100 INFO  Thread-6         WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:21:12,341 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:21:12,342 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Help" at URI namespace "/de.deepamehta.help"
+2013-03-05 19:21:12,342 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Help" ABORTED -- no REST resources provided
+2013-03-05 19:21:12,342 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Help" ABORTED -- no provider classes provided
+2013-03-05 19:21:12,342 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Help" -----
+2013-03-05 19:21:12,345 INFO  Thread-6         PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Help" in the database
+2013-03-05 19:21:12,409 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Help" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:21:12,449 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Help" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:12,450 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Help" ABORTED -- no OSGi service provided
+2013-03-05 19:21:12,450 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Help" complete -----
+2013-03-05 19:21:12,452 INFO  Thread-6         PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 2
+2013-03-05 19:21:12,452 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:21:12,452 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 File Manager" at URI namespace "/de.deepamehta.filemanager"
+2013-03-05 19:21:12,453 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 File Manager" ABORTED -- no REST resources provided
+2013-03-05 19:21:12,453 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 File Manager" ABORTED -- no provider classes provided
+2013-03-05 19:21:12,453 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 File Manager" -----
+2013-03-05 19:21:12,458 INFO  Thread-6         PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 File Manager" in the database
+2013-03-05 19:21:12,541 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 File Manager" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:21:12,578 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 File Manager" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:12,579 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 File Manager" ABORTED -- no OSGi service provided
+2013-03-05 19:21:12,579 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 File Manager" complete -----
+2013-03-05 19:21:12,580 INFO  Thread-6         PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 3
+2013-03-05 19:21:12,581 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:12,581 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Files" at URI namespace "/de.deepamehta.files"
+2013-03-05 19:21:12,582 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Files" at URI namespace "/files"
+2013-03-05 19:21:12,583 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering 1 provider classes of plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:12,584 INFO  Thread-6         WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:21:12,793 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:12,793 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Topicmaps" at URI namespace "/de.deepamehta.topicmaps"
+2013-03-05 19:21:12,793 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Topicmaps" at URI namespace "/topicmap"
+2013-03-05 19:21:12,794 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering 1 provider classes of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:12,794 INFO  Thread-6         WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:21:12,996 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:21:12,997 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Type Search" at URI namespace "/de.deepamehta.typesearch"
+2013-03-05 19:21:12,997 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Type Search" ABORTED -- no REST resources provided
+2013-03-05 19:21:12,997 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Type Search" ABORTED -- no provider classes provided
+2013-03-05 19:21:12,997 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Type Search" -----
+2013-03-05 19:21:13,000 INFO  Thread-6         PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Type Search" in the database
+2013-03-05 19:21:13,051 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Type Search" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:21:13,080 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Type Search" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:13,080 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Type Search" ABORTED -- no OSGi service provided
+2013-03-05 19:21:13,081 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Type Search" complete -----
+2013-03-05 19:21:13,082 INFO  Thread-6         PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 4
+2013-03-05 19:21:13,083 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:13,085 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Icon Picker" at URI namespace "/de.deepamehta.iconpicker"
+2013-03-05 19:21:13,085 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,086 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,086 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:13,086 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Type Editor" at URI namespace "/de.deepamehta.typeeditor"
+2013-03-05 19:21:13,086 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Type Editor" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,087 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Type Editor" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,087 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:13,087 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Workspaces" at URI namespace "/de.deepamehta.workspaces"
+2013-03-05 19:21:13,087 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Workspaces" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,087 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Workspaces" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,087 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:13,088 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Contacts" at URI namespace "/de.deepamehta.contacts"
+2013-03-05 19:21:13,088 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Contacts" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,088 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Contacts" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,088 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:13,088 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Notes" at URI namespace "/de.deepamehta.notes"
+2013-03-05 19:21:13,088 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Notes" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,089 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Notes" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,089 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:13,089 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Webbrowser" at URI namespace "/de.deepamehta.webbrowser"
+2013-03-05 19:21:13,089 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no REST resources provided
+2013-03-05 19:21:13,089 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,090 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:13,090 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Webclient" at URI namespace "/de.deepamehta.webclient"
+2013-03-05 19:21:13,090 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Webclient" at URI namespace "/webclient"
+2013-03-05 19:21:13,091 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Webclient" ABORTED -- no provider classes provided
+2013-03-05 19:21:13,091 INFO  Thread-6         WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:21:13,297 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Webclient" -----
+2013-03-05 19:21:13,302 INFO  Thread-6         PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Webclient" in the database
+2013-03-05 19:21:13,352 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running 2 migrations for plugin "DeepaMehta 4 Webclient" (migrationNr=0, requiredMigrationNr=2)
+2013-03-05 19:21:13,353 INFO  Thread-6         MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:13,353 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Webclient" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:13,353 INFO  Thread-6         DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:14,318 INFO  Thread-6         MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:14,319 INFO  Thread-6         MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:14,340 INFO  Thread-6         MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration2.properties" ABORTED -- file does not exist
+2013-03-05 19:21:14,341 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running migration 2 of plugin "DeepaMehta 4 Webclient" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:14,341 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running plugin migration class de.deepamehta.plugins.webclient.migrations.Migration2
+2013-03-05 19:21:15,031 INFO  Thread-6         MigrationManager                 de.deepamehta.core Completing migration 2 of plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:21:15,031 INFO  Thread-6         MigrationManager                 de.deepamehta.core Updating migration number (2)
+2013-03-05 19:21:15,196 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering 3 listeners of plugin "DeepaMehta 4 Webclient" at DeepaMehta 4 core service
+2013-03-05 19:21:15,197 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Webclient" ABORTED -- no OSGi service provided
+2013-03-05 19:21:15,198 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Webclient" complete -----
+2013-03-05 19:21:15,199 INFO  Thread-6         PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 5
+2013-03-05 19:21:15,200 INFO  Thread-6         PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:21:15,200 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Webservice" ABORTED -- no Web resources provided
+2013-03-05 19:21:15,201 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Webservice" at URI namespace "/core"
+2013-03-05 19:21:15,201 INFO  Thread-54        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:15,201 INFO  Thread-54        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Type Editor" -----
+2013-03-05 19:21:15,208 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering 10 provider classes of plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:21:15,212 INFO  Thread-6         WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:21:15,213 INFO  Thread-54        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Type Editor" in the database
+2013-03-05 19:21:15,311 INFO  Thread-54        MigrationManager                 de.deepamehta.core Running 1 migrations for plugin "DeepaMehta 4 Type Editor" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:15,312 INFO  Thread-54        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:15,312 INFO  Thread-54        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Type Editor" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:15,313 INFO  Thread-54        MigrationManager                 de.deepamehta.core Running plugin migration class de.deepamehta.plugins.typeeditor.migrations.Migration1
+2013-03-05 19:21:15,359 INFO  Thread-54        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:21:15,360 INFO  Thread-54        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:15,406 INFO  Thread-54        PluginImpl                       de.deepamehta.core Registering 2 listeners of plugin "DeepaMehta 4 Type Editor" at DeepaMehta 4 core service
+2013-03-05 19:21:15,406 INFO  Thread-54        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Type Editor" ABORTED -- no OSGi service provided
+2013-03-05 19:21:15,407 INFO  Thread-54        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Type Editor" complete -----
+2013-03-05 19:21:15,412 INFO  Thread-54        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 6
+2013-03-05 19:21:15,413 INFO  Thread-54        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:15,413 INFO  Thread-54        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Webbrowser" -----
+2013-03-05 19:21:15,416 INFO  Thread-54        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Webbrowser" in the database
+2013-03-05 19:21:15,467 INFO  Thread-54        MigrationManager                 de.deepamehta.core Running 2 migrations for plugin "DeepaMehta 4 Webbrowser" (migrationNr=0, requiredMigrationNr=2)
+2013-03-05 19:21:15,467 INFO  Thread-54        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:15,468 INFO  Thread-54        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Webbrowser" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:15,468 INFO  Thread-54        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:15,646 INFO  Thread-54        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:15,646 INFO  Thread-54        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:15,654 INFO  Thread-54        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration2.properties" ABORTED -- file does not exist
+2013-03-05 19:21:15,654 INFO  Thread-54        MigrationManager                 de.deepamehta.core Running migration 2 of plugin "DeepaMehta 4 Webbrowser" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:15,654 INFO  Thread-54        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration2.json"
+2013-03-05 19:21:15,734 INFO  Thread-54        MigrationManager                 de.deepamehta.core Completing migration 2 of plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:21:15,735 INFO  Thread-54        MigrationManager                 de.deepamehta.core Updating migration number (2)
+2013-03-05 19:21:15,800 INFO  Thread-54        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Webbrowser" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:15,801 INFO  Thread-54        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no OSGi service provided
+2013-03-05 19:21:15,801 INFO  Thread-54        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Webbrowser" complete -----
+2013-03-05 19:21:15,802 INFO  Thread-54        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 7
+2013-03-05 19:21:15,803 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Webservice" -----
+2013-03-05 19:21:15,803 INFO  Thread-44        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:15,810 INFO  Thread-6         PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Webservice" in the database
+2013-03-05 19:21:15,832 INFO  Thread-53        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webbrowser" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:15,858 INFO  Thread-6         MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Webservice" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:21:15,879 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Webservice" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:15,879 INFO  Thread-6         PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Webservice" ABORTED -- no OSGi service provided
+2013-03-05 19:21:15,879 INFO  Thread-6         PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Webservice" complete -----
+2013-03-05 19:21:15,881 INFO  Thread-6         PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 8
+2013-03-05 19:21:15,881 INFO  Thread-53        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Contacts" -----
+2013-03-05 19:21:15,890 INFO  Thread-53        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Contacts" in the database
+2013-03-05 19:21:15,952 INFO  Thread-53        MigrationManager                 de.deepamehta.core Running 1 migrations for plugin "DeepaMehta 4 Contacts" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:15,953 INFO  Thread-53        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:15,953 INFO  Thread-53        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Contacts" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:15,953 INFO  Thread-53        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:16,047 INFO  rint Extender: 1 FeaturesPlugin                   org.apache.karaf.webconsole.features Features plugin activated
+2013-03-05 19:21:16,818 INFO  Thread-53        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:16,818 INFO  Thread-53        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:16,952 INFO  Thread-53        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Contacts" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:16,953 INFO  Thread-53        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Contacts" ABORTED -- no OSGi service provided
+2013-03-05 19:21:16,953 INFO  Thread-53        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Contacts" complete -----
+2013-03-05 19:21:16,954 INFO  Thread-53        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 9
+2013-03-05 19:21:16,955 INFO  Thread-44        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Workspaces" -----
+2013-03-05 19:21:16,960 INFO  Thread-44        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Workspaces" in the database
+2013-03-05 19:21:17,027 INFO  Thread-44        MigrationManager                 de.deepamehta.core Running 1 migrations for plugin "DeepaMehta 4 Workspaces" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:17,028 INFO  Thread-44        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:17,028 INFO  Thread-44        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Workspaces" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:17,028 INFO  Thread-44        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:17,201 INFO  Thread-44        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:21:17,202 INFO  Thread-44        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:17,206 INFO  Thread-44        WorkspacesPlugin                 de.deepamehta.workspaces Creating workspace "DeepaMehta"
+2013-03-05 19:21:17,602 INFO  Thread-44        PluginImpl                       de.deepamehta.core Registering 3 listeners of plugin "DeepaMehta 4 Workspaces" at DeepaMehta 4 core service
+2013-03-05 19:21:17,602 INFO  Thread-44        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.workspaces.service.WorkspacesService" at OSGi framework
+2013-03-05 19:21:17,603 INFO  Thread-44        PluginImpl                       de.deepamehta.core Adding "de.deepamehta.plugins.workspaces.service.WorkspacesService" to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:17,603 INFO  Thread-44        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Access Control" -----
+2013-03-05 19:21:17,608 INFO  Thread-44        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Access Control" in the database
+2013-03-05 19:21:17,645 INFO  Thread-44        MigrationManager                 de.deepamehta.core Running 1 migrations for plugin "DeepaMehta 4 Access Control" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:17,645 INFO  Thread-44        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:17,645 INFO  Thread-44        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Access Control" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:17,645 INFO  Thread-44        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:17,723 INFO  Thread-44        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:17,723 INFO  Thread-44        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:17,748 INFO  Thread-44        AccessControlPlugin              de.deepamehta.accesscontrol Creating "admin" user account => ID=1676
+2013-03-05 19:21:17,823 INFO  Thread-44        AccessControlPlugin              de.deepamehta.accesscontrol Security settings:
+    dm4.security.read_requires_login=true
+    dm4.security.write_requires_login=true
+    dm4.security.subnet_filter="0.0.0.0/0"
+2013-03-05 19:21:17,826 INFO  Thread-44        PluginImpl                       de.deepamehta.core Registering 9 listeners of plugin "DeepaMehta 4 Access Control" at DeepaMehta 4 core service
+2013-03-05 19:21:17,827 INFO  Thread-44        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.accesscontrol.service.AccessControlService" at OSGi framework
+2013-03-05 19:21:17,828 INFO  Thread-44        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Access Control" complete -----
+2013-03-05 19:21:17,830 INFO  Thread-44        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 10
+2013-03-05 19:21:17,832 INFO  Thread-44        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Workspaces" complete -----
+2013-03-05 19:21:17,833 INFO  Thread-44        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 11
+2013-03-05 19:21:17,834 INFO  Thread-37        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:17,834 INFO  Thread-37        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Icon Picker" -----
+2013-03-05 19:21:17,843 INFO  Thread-37        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Icon Picker" in the database
+2013-03-05 19:21:17,904 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running 1 migrations for plugin "DeepaMehta 4 Icon Picker" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:17,905 INFO  Thread-37        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:17,905 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Icon Picker" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:17,905 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running plugin migration class de.deepamehta.plugins.iconpicker.migrations.Migration1
+2013-03-05 19:21:17,930 INFO  Thread-37        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:21:17,931 INFO  Thread-37        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:17,967 INFO  Thread-37        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Icon Picker" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:17,968 INFO  Thread-37        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no OSGi service provided
+2013-03-05 19:21:17,968 INFO  Thread-37        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Icon Picker" complete -----
+2013-03-05 19:21:17,970 INFO  Thread-37        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 12
+2013-03-05 19:21:17,973 INFO  Thread-49        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:21:17,973 INFO  Thread-49        PluginManager                    de.deepamehta.core Activation of plugin "DeepaMehta 4 Access Control" ABORTED -- already activated
+2013-03-05 19:21:17,973 INFO  Thread-53        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:17,974 INFO  Thread-51        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:17,974 INFO  Thread-51        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Notes" -----
+2013-03-05 19:21:17,979 INFO  Thread-51        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Notes" in the database
+2013-03-05 19:21:18,031 INFO  Thread-51        MigrationManager                 de.deepamehta.core Running 1 migrations for plugin "DeepaMehta 4 Notes" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:18,032 INFO  Thread-51        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:18,032 INFO  Thread-51        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Notes" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:18,032 INFO  Thread-51        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:18,262 INFO  Thread-51        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Notes"
+2013-03-05 19:21:18,263 INFO  Thread-51        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:18,319 INFO  Thread-51        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Notes" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:18,320 INFO  Thread-51        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Notes" ABORTED -- no OSGi service provided
+2013-03-05 19:21:18,320 INFO  Thread-51        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Notes" complete -----
+2013-03-05 19:21:18,322 INFO  Thread-51        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 13
+2013-03-05 19:21:18,322 INFO  Thread-43        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:18,322 INFO  Thread-43        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Files" -----
+2013-03-05 19:21:18,328 INFO  Thread-43        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Files" in the database
+2013-03-05 19:21:18,376 INFO  Thread-43        MigrationManager                 de.deepamehta.core Running 1 migrations for plugin "DeepaMehta 4 Files" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:18,377 INFO  Thread-43        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:18,377 INFO  Thread-43        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Files" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:18,377 INFO  Thread-43        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:18,868 INFO  Thread-43        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Files"
+2013-03-05 19:21:18,868 INFO  Thread-43        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:18,939 INFO  Thread-43        PluginImpl                       de.deepamehta.core ### Publishing directory "/home/silke/Downloads/deepamehta-4.0.14-karaf/deepamehta-files" at URI namespace "/filerepo"
+2013-03-05 19:21:18,940 INFO  Thread-43        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Files" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:18,941 INFO  Thread-43        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.files.service.FilesService" at OSGi framework
+2013-03-05 19:21:18,942 INFO  Thread-43        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Files" complete -----
+2013-03-05 19:21:18,943 INFO  Thread-37        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.files" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:18,943 INFO  Thread-43        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 14
+2013-03-05 19:21:18,944 INFO  Thread-37        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Topicmaps" -----
+2013-03-05 19:21:18,944 INFO  Thread-50        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:21:18,947 INFO  Thread-37        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Topicmaps" in the database
+2013-03-05 19:21:18,986 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running 3 migrations for plugin "DeepaMehta 4 Topicmaps" (migrationNr=0, requiredMigrationNr=3)
+2013-03-05 19:21:18,987 INFO  Thread-37        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:18,987 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Topicmaps" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:18,987 INFO  Thread-37        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:19,274 INFO  Thread-37        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:19,274 INFO  Thread-37        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:19,284 INFO  Thread-37        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration2.properties" ABORTED -- file does not exist
+2013-03-05 19:21:19,284 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running migration 2 of plugin "DeepaMehta 4 Topicmaps" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:19,284 INFO  Thread-37        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration2.json"
+2013-03-05 19:21:19,470 INFO  Thread-37        MigrationManager                 de.deepamehta.core Completing migration 2 of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:19,470 INFO  Thread-37        MigrationManager                 de.deepamehta.core Updating migration number (2)
+2013-03-05 19:21:19,477 INFO  Thread-37        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration3.properties" ABORTED -- file does not exist
+2013-03-05 19:21:19,477 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running migration 3 of plugin "DeepaMehta 4 Topicmaps" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:19,477 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running plugin migration class de.deepamehta.plugins.topicmaps.migrations.Migration3
+2013-03-05 19:21:19,486 INFO  Thread-37        MigrationManager                 de.deepamehta.core Completing migration 3 of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:21:19,487 INFO  Thread-37        MigrationManager                 de.deepamehta.core Updating migration number (3)
+2013-03-05 19:21:19,690 INFO  Thread-37        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Topicmaps" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:21:19,691 INFO  Thread-37        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.topicmaps.service.TopicmapsService" at OSGi framework
+2013-03-05 19:21:19,691 INFO  Thread-37        PluginImpl                       de.deepamehta.core Adding "de.deepamehta.plugins.topicmaps.service.TopicmapsService" to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:19,692 INFO  Thread-37        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Geomaps" -----
+2013-03-05 19:21:19,694 INFO  Thread-37        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Geomaps" in the database
+2013-03-05 19:21:19,722 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running 1 migrations for plugin "DeepaMehta 4 Geomaps" (migrationNr=0, requiredMigrationNr=1)
+2013-03-05 19:21:19,723 INFO  Thread-37        MigrationManager                 de.deepamehta.core Reading migration config file "/migrations/migration1.properties" ABORTED -- file does not exist
+2013-03-05 19:21:19,723 INFO  Thread-37        MigrationManager                 de.deepamehta.core Running migration 1 of plugin "DeepaMehta 4 Geomaps" (runMode=ALWAYS, isCleanInstall=true)
+2013-03-05 19:21:19,723 INFO  Thread-37        DeepaMehtaUtils                  de.deepamehta.core Reading migration file "/migrations/migration1.json"
+2013-03-05 19:21:19,829 INFO  Thread-37        MigrationManager                 de.deepamehta.core Completing migration 1 of plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:21:19,830 INFO  Thread-37        MigrationManager                 de.deepamehta.core Updating migration number (1)
+2013-03-05 19:21:19,870 INFO  Thread-37        TopicmapsPlugin                  de.deepamehta.topicmaps ### Registering topicmap renderer "de.deepamehta.plugins.geomaps.GeomapRenderer"
+2013-03-05 19:21:19,870 INFO  Thread-37        PluginImpl                       de.deepamehta.core Registering 3 listeners of plugin "DeepaMehta 4 Geomaps" at DeepaMehta 4 core service
+2013-03-05 19:21:19,870 INFO  Thread-37        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.geomaps.service.GeomapsService" at OSGi framework
+2013-03-05 19:21:19,872 INFO  Thread-37        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Geomaps" complete -----
+2013-03-05 19:21:19,873 INFO  Thread-37        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 15
+2013-03-05 19:21:19,873 INFO  Thread-37        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Topicmaps" complete -----
+2013-03-05 19:21:19,874 INFO  Thread-37        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 16
+2013-03-05 19:21:19,875 INFO  Thread-37        PluginManager                    de.deepamehta.core ########## All Plugins Activated ##########
+2013-03-05 19:21:19,875 INFO  Thread-37        WebclientPlugin                  de.deepamehta.webclient ### Launching webclient (url="http://localhost:null/de.deepamehta.webclient/")
+2013-03-05 19:21:20,126 INFO  Thread-37        AccessControlPlugin              de.deepamehta.accesscontrol ### Assigning the default user ("admin") to the default workspace ("DeepaMehta")
+2013-03-05 19:21:20,154 INFO  Thread-37        AccessControlPlugin              de.deepamehta.accesscontrol ### Assigning the default topicmap ("untitled") to the default workspace ("DeepaMehta")
+2013-03-05 19:21:20,174 INFO  Thread-37        AccessControlPlugin              de.deepamehta.accesscontrol ### Setup access control for the default topicmap ("untitled")
+2013-03-05 19:21:20,187 INFO  Thread-50        PluginManager                    de.deepamehta.core Activation of plugin "DeepaMehta 4 Contacts" ABORTED -- already activated
+2013-03-05 19:22:58,479 WARN  @qtp-533209608-0 jetty                            org.apache.felix.http.jetty /
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at de.deepamehta.plugins.accesscontrol.model.Credentials.<init>(Credentials.java:33)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkAuthorization(AccessControlPlugin.java:254)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkRequest(AccessControlPlugin.java:227)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.RequestFilter.doFilter(RequestFilter.java:48)[65:de.deepamehta.accesscontrol:4.0.14]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.doHandle(FilterHandler.java:88)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.handle(FilterHandler.java:76)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:47)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.FilterPipeline.dispatch(FilterPipeline.java:48)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.Dispatcher.dispatch(Dispatcher.java:39)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.DispatcherServlet.service(DispatcherServlet.java:67)[50:org.apache.felix.http.jetty:2.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.Server.handle(Server.java:326)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)[50:org.apache.felix.http.jetty:2.2.0]
+2013-03-05 19:22:58,624 WARN  @qtp-533209608-0 jetty                            org.apache.felix.http.jetty /favicon.ico
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at de.deepamehta.plugins.accesscontrol.model.Credentials.<init>(Credentials.java:33)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkAuthorization(AccessControlPlugin.java:254)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkRequest(AccessControlPlugin.java:227)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.RequestFilter.doFilter(RequestFilter.java:48)[65:de.deepamehta.accesscontrol:4.0.14]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.doHandle(FilterHandler.java:88)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.handle(FilterHandler.java:76)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:47)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.FilterPipeline.dispatch(FilterPipeline.java:48)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.Dispatcher.dispatch(Dispatcher.java:39)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.DispatcherServlet.service(DispatcherServlet.java:67)[50:org.apache.felix.http.jetty:2.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.Server.handle(Server.java:326)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)[50:org.apache.felix.http.jetty:2.2.0]
+2013-03-05 19:22:58,633 WARN  @qtp-533209608-0 jetty                            org.apache.felix.http.jetty /favicon.ico
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at de.deepamehta.plugins.accesscontrol.model.Credentials.<init>(Credentials.java:33)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkAuthorization(AccessControlPlugin.java:254)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkRequest(AccessControlPlugin.java:227)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.RequestFilter.doFilter(RequestFilter.java:48)[65:de.deepamehta.accesscontrol:4.0.14]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.doHandle(FilterHandler.java:88)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.handle(FilterHandler.java:76)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:47)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.FilterPipeline.dispatch(FilterPipeline.java:48)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.Dispatcher.dispatch(Dispatcher.java:39)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.DispatcherServlet.service(DispatcherServlet.java:67)[50:org.apache.felix.http.jetty:2.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.Server.handle(Server.java:326)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)[50:org.apache.felix.http.jetty:2.2.0]
+2013-03-05 19:23:01,483 WARN  @qtp-533209608-0 jetty                            org.apache.felix.http.jetty /
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at de.deepamehta.plugins.accesscontrol.model.Credentials.<init>(Credentials.java:33)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkAuthorization(AccessControlPlugin.java:254)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkRequest(AccessControlPlugin.java:227)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.RequestFilter.doFilter(RequestFilter.java:48)[65:de.deepamehta.accesscontrol:4.0.14]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.doHandle(FilterHandler.java:88)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.handle(FilterHandler.java:76)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:47)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.FilterPipeline.dispatch(FilterPipeline.java:48)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.Dispatcher.dispatch(Dispatcher.java:39)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.DispatcherServlet.service(DispatcherServlet.java:67)[50:org.apache.felix.http.jetty:2.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.Server.handle(Server.java:326)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)[50:org.apache.felix.http.jetty:2.2.0]
+2013-03-05 19:23:04,762 WARN  @qtp-533209608-0 jetty                            org.apache.felix.http.jetty /
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at de.deepamehta.plugins.accesscontrol.model.Credentials.<init>(Credentials.java:33)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkAuthorization(AccessControlPlugin.java:254)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkRequest(AccessControlPlugin.java:227)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.RequestFilter.doFilter(RequestFilter.java:48)[65:de.deepamehta.accesscontrol:4.0.14]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.doHandle(FilterHandler.java:88)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.handle(FilterHandler.java:76)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:47)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.FilterPipeline.dispatch(FilterPipeline.java:48)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.Dispatcher.dispatch(Dispatcher.java:39)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.DispatcherServlet.service(DispatcherServlet.java:67)[50:org.apache.felix.http.jetty:2.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.Server.handle(Server.java:326)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)[50:org.apache.felix.http.jetty:2.2.0]
+2013-03-05 19:23:47,671 WARN  @qtp-533209608-0 jetty                            org.apache.felix.http.jetty /system/console
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at de.deepamehta.plugins.accesscontrol.model.Credentials.<init>(Credentials.java:33)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkAuthorization(AccessControlPlugin.java:254)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.AccessControlPlugin.checkRequest(AccessControlPlugin.java:227)[65:de.deepamehta.accesscontrol:4.0.14]
+	at de.deepamehta.plugins.accesscontrol.RequestFilter.doFilter(RequestFilter.java:48)[65:de.deepamehta.accesscontrol:4.0.14]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.doHandle(FilterHandler.java:88)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.handle(FilterHandler.java:76)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:47)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.FilterPipeline.dispatch(FilterPipeline.java:48)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.Dispatcher.dispatch(Dispatcher.java:39)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.DispatcherServlet.service(DispatcherServlet.java:67)[50:org.apache.felix.http.jetty:2.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.Server.handle(Server.java:326)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)[50:org.apache.felix.http.jetty:2.2.0]
+2013-03-05 19:24:23,780 INFO  @qtp-533209608-0 AccessControlPlugin              de.deepamehta.accesscontrol ##### Logging in as "admin" => SUCCESSFUL!
+      ##### Creating new session 12d3iaff5n297x2kwi9p8x8kr (username=admin)
+2013-03-05 19:25:23,089 INFO  @qtp-533209608-6 Topicmap                         de.deepamehta.topicmaps Loading topicmap 2403
+2013-03-05 19:25:42,197 INFO  @qtp-533209608-7 GogoPlugin                       org.apache.karaf.webconsole.gogo Gogo plugin activated
+2013-03-05 19:25:42,207 ERROR @qtp-533209608-7 jetty                            org.apache.felix.http.jetty servlet_19: Failed to instantiate plugin org.apache.felix.webconsole.internal.deppack.DepPackServlet
+java.lang.NoClassDefFoundError: org/osgi/service/deploymentadmin/DeploymentException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)[:1.6.0_27]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2416)[:1.6.0_27]
+	at java.lang.Class.getConstructor0(Class.java:2726)[:1.6.0_27]
+	at java.lang.Class.newInstance0(Class.java:345)[:1.6.0_27]
+	at java.lang.Class.newInstance(Class.java:327)[:1.6.0_27]
+	at org.apache.felix.webconsole.internal.servlet.PluginHolder$InternalPlugin.doGetConsolePlugin(PluginHolder.java:761)
+	at org.apache.felix.webconsole.internal.servlet.PluginHolder$Plugin.getConsolePlugin(PluginHolder.java:532)
+	at org.apache.felix.webconsole.internal.servlet.PluginHolder.getLocalizedLabelMap(PluginHolder.java:242)
+	at org.apache.felix.webconsole.internal.servlet.OsgiManager.service(OsgiManager.java:420)
+	at org.apache.felix.webconsole.internal.servlet.OsgiManager.service(OsgiManager.java:384)
+	at org.apache.felix.webconsole.internal.KarafOsgiManager.doService(KarafOsgiManager.java:67)[71:org.apache.karaf.webconsole.console:2.2.9]
+	at org.apache.felix.webconsole.internal.KarafOsgiManager$1.run(KarafOsgiManager.java:47)
+	at java.security.AccessController.doPrivileged(Native Method)[:1.6.0_27]
+	at javax.security.auth.Subject.doAs(Subject.java:416)[:1.6.0_27]
+	at org.apache.felix.webconsole.internal.KarafOsgiManager.service(KarafOsgiManager.java:45)[71:org.apache.karaf.webconsole.console:2.2.9]
+	at org.apache.felix.http.base.internal.handler.ServletHandler.doHandle(ServletHandler.java:96)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.ServletHandler.handle(ServletHandler.java:79)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.ServletPipeline.handle(ServletPipeline.java:42)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:49)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at de.deepamehta.plugins.accesscontrol.RequestFilter.doFilter(RequestFilter.java:50)[65:de.deepamehta.accesscontrol:4.0.14]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.doHandle(FilterHandler.java:88)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.handle(FilterHandler.java:76)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:47)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.FilterPipeline.dispatch(FilterPipeline.java:48)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.Dispatcher.dispatch(Dispatcher.java:39)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.DispatcherServlet.service(DispatcherServlet.java:67)[50:org.apache.felix.http.jetty:2.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.Server.handle(Server.java:326)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)[50:org.apache.felix.http.jetty:2.2.0]
+Caused by: java.lang.ClassNotFoundException: org.osgi.service.deploymentadmin.DeploymentException not found by org.apache.karaf.webconsole.console [71]
+	at org.apache.felix.framework.ModuleImpl.findClassOrResourceByDelegation(ModuleImpl.java:812)
+	at org.apache.felix.framework.ModuleImpl.access$400(ModuleImpl.java:72)
+	at org.apache.felix.framework.ModuleImpl$ModuleClassLoader.loadClass(ModuleImpl.java:1807)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:266)[:1.6.0_27]
+	... 42 more
+2013-03-05 19:25:42,215 INFO  @qtp-533209608-7 AdminPlugin                      org.apache.karaf.webconsole.admin Admin plugin activated
+2013-03-05 19:25:42,218 ERROR @qtp-533209608-7 jetty                            org.apache.felix.http.jetty servlet_19: Failed to instantiate plugin org.apache.felix.webconsole.internal.compendium.ComponentsServlet
+java.lang.NoClassDefFoundError: org.apache.felix.scr.ScrService not found by org.apache.karaf.webconsole.console [71]
+	at org.apache.felix.webconsole.internal.compendium.ComponentsServlet.class$(ComponentsServlet.java:74)
+	at org.apache.felix.webconsole.internal.compendium.ComponentsServlet.<clinit>(ComponentsServlet.java:74)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[:1.6.0_27]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)[:1.6.0_27]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[:1.6.0_27]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:532)[:1.6.0_27]
+	at java.lang.Class.newInstance0(Class.java:374)[:1.6.0_27]
+	at java.lang.Class.newInstance(Class.java:327)[:1.6.0_27]
+	at org.apache.felix.webconsole.internal.servlet.PluginHolder$InternalPlugin.doGetConsolePlugin(PluginHolder.java:761)
+	at org.apache.felix.webconsole.internal.servlet.PluginHolder$Plugin.getConsolePlugin(PluginHolder.java:532)
+	at org.apache.felix.webconsole.internal.servlet.PluginHolder.getLocalizedLabelMap(PluginHolder.java:242)
+	at org.apache.felix.webconsole.internal.servlet.OsgiManager.service(OsgiManager.java:420)
+	at org.apache.felix.webconsole.internal.servlet.OsgiManager.service(OsgiManager.java:384)
+	at org.apache.felix.webconsole.internal.KarafOsgiManager.doService(KarafOsgiManager.java:67)[71:org.apache.karaf.webconsole.console:2.2.9]
+	at org.apache.felix.webconsole.internal.KarafOsgiManager$1.run(KarafOsgiManager.java:47)
+	at java.security.AccessController.doPrivileged(Native Method)[:1.6.0_27]
+	at javax.security.auth.Subject.doAs(Subject.java:416)[:1.6.0_27]
+	at org.apache.felix.webconsole.internal.KarafOsgiManager.service(KarafOsgiManager.java:45)[71:org.apache.karaf.webconsole.console:2.2.9]
+	at org.apache.felix.http.base.internal.handler.ServletHandler.doHandle(ServletHandler.java:96)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.ServletHandler.handle(ServletHandler.java:79)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.ServletPipeline.handle(ServletPipeline.java:42)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:49)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at de.deepamehta.plugins.accesscontrol.RequestFilter.doFilter(RequestFilter.java:50)[65:de.deepamehta.accesscontrol:4.0.14]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.doHandle(FilterHandler.java:88)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.handler.FilterHandler.handle(FilterHandler.java:76)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:47)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.FilterPipeline.dispatch(FilterPipeline.java:48)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.dispatch.Dispatcher.dispatch(Dispatcher.java:39)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.apache.felix.http.base.internal.DispatcherServlet.service(DispatcherServlet.java:67)[50:org.apache.felix.http.jetty:2.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.Server.handle(Server.java:326)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)[50:org.apache.felix.http.jetty:2.2.0]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)[50:org.apache.felix.http.jetty:2.2.0]
+2013-03-05 19:26:52,598 INFO  NioProcessor-2   ServerSession                    org.apache.sshd.core Session created from /127.0.0.1:32909
+2013-03-05 19:26:52,626 INFO  NioProcessor-2   SimpleGeneratorHostKeyProvider   org.apache.sshd.core Generating host key...
+2013-03-05 19:26:52,639 INFO  NioProcessor-3   ServerSession                    org.apache.sshd.core Session created from /127.0.0.1:32910
+2013-03-05 19:26:52,689 INFO  NioProcessor-4   ServerSession                    org.apache.sshd.core Session created from /127.0.0.1:32911
+2013-03-05 19:26:52,710 WARN  NioProcessor-4   ServerSession                    org.apache.sshd.core Exception caught
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcher.write0(Native Method)[:1.6.0_27]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)[:1.6.0_27]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:122)[:1.6.0_27]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:93)[:1.6.0_27]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:352)[:1.6.0_27]
+	at org.apache.mina.transport.socket.nio.NioProcessor.write(NioProcessor.java:221)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.transport.socket.nio.NioProcessor.write(NioProcessor.java:42)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.writeBuffer(AbstractPollingIoProcessor.java:927)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:851)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:776)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$500(AbstractPollingIoProcessor.java:66)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1083)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)[34:org.apache.mina.core:2.0.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)[:1.6.0_27]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)[:1.6.0_27]
+	at java.lang.Thread.run(Thread.java:679)[:1.6.0_27]
+2013-03-05 19:26:52,710 WARN  NioProcessor-2   ServerSession                    org.apache.sshd.core Exception caught
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcher.write0(Native Method)[:1.6.0_27]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)[:1.6.0_27]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:122)[:1.6.0_27]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:93)[:1.6.0_27]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:352)[:1.6.0_27]
+	at org.apache.mina.transport.socket.nio.NioProcessor.write(NioProcessor.java:221)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.transport.socket.nio.NioProcessor.write(NioProcessor.java:42)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.writeBuffer(AbstractPollingIoProcessor.java:927)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:851)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:776)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$500(AbstractPollingIoProcessor.java:66)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1083)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)[34:org.apache.mina.core:2.0.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)[:1.6.0_27]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)[:1.6.0_27]
+	at java.lang.Thread.run(Thread.java:679)[:1.6.0_27]
+2013-03-05 19:26:52,710 WARN  NioProcessor-3   ServerSession                    org.apache.sshd.core Exception caught
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcher.write0(Native Method)[:1.6.0_27]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)[:1.6.0_27]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:122)[:1.6.0_27]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:93)[:1.6.0_27]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:352)[:1.6.0_27]
+	at org.apache.mina.transport.socket.nio.NioProcessor.write(NioProcessor.java:221)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.transport.socket.nio.NioProcessor.write(NioProcessor.java:42)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.writeBuffer(AbstractPollingIoProcessor.java:927)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:851)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:776)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$500(AbstractPollingIoProcessor.java:66)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1083)[34:org.apache.mina.core:2.0.1]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)[34:org.apache.mina.core:2.0.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)[:1.6.0_27]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)[:1.6.0_27]
+	at java.lang.Thread.run(Thread.java:679)[:1.6.0_27]
+2013-03-05 19:26:52,713 INFO  NioProcessor-4   ServerSession                    org.apache.sshd.core Session null@/127.0.0.1:32911 closed
+2013-03-05 19:26:52,714 INFO  NioProcessor-3   ServerSession                    org.apache.sshd.core Session null@/127.0.0.1:32910 closed
+2013-03-05 19:26:52,720 INFO  NioProcessor-2   ServerSession                    org.apache.sshd.core Session null@/127.0.0.1:32909 closed
+2013-03-05 19:27:17,253 INFO  FelixStartLevel  GogoPlugin                       org.apache.karaf.webconsole.gogo Gogo plugin deactivated
+2013-03-05 19:27:17,255 INFO  FelixStartLevel  FeaturesPlugin                   org.apache.karaf.webconsole.features Features plugin deactivated
+2013-03-05 19:27:17,258 INFO  FelixStartLevel  AdminPlugin                      org.apache.karaf.webconsole.admin Admin plugin deactivated
+2013-03-05 19:27:17,328 INFO  FelixStartLevel  Neo4jStorageActivator            de.deepamehta.storage-neo4j ========== Stopping "DeepaMehta 4 Storage - Neo4j" ==========
+2013-03-05 19:27:17,329 INFO  FelixStartLevel  Neo4jStorage                     de.deepamehta.storage-neo4j Shutdown Neo4j
+2013-03-05 19:27:17,473 INFO  FelixStartLevel  CoreActivator                    de.deepamehta.core Removing storage service from DeepaMehta 4 Core
+2013-03-05 19:27:17,475 INFO  FelixStartLevel  GeomapsPlugin                    de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Geomaps" ==========
+2013-03-05 19:27:17,476 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,476 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing plugin service "de.deepamehta.plugins.topicmaps.service.TopicmapsService" from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,476 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing plugin service "de.deepamehta.plugins.facets.service.FacetsService" from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,477 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering listeners of plugin "DeepaMehta 4 Geomaps" at DeepaMehta 4 core service
+2013-03-05 19:27:17,477 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,477 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,479 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:27:17,690 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,691 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:27:17,692 INFO  FelixStartLevel  FacetsPlugin                     de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Facets" ==========
+2013-03-05 19:27:17,692 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Facets"
+2013-03-05 19:27:17,692 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Facets"
+2013-03-05 19:27:17,692 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Facets"
+2013-03-05 19:27:17,692 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Facets"
+2013-03-05 19:27:17,693 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing plugin service "de.deepamehta.plugins.facets.service.FacetsService" from plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:17,693 INFO  FelixStartLevel  AccessControlPlugin              de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Access Control" ==========
+2013-03-05 19:27:17,694 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,694 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing plugin service "de.deepamehta.plugins.workspaces.service.WorkspacesService" from plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,694 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering listeners of plugin "DeepaMehta 4 Access Control" at DeepaMehta 4 core service
+2013-03-05 19:27:17,694 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,694 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,695 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:27:17,869 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,869 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:27:17,870 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Help" ==========
+2013-03-05 19:27:17,871 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Help"
+2013-03-05 19:27:17,871 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Help"
+2013-03-05 19:27:17,871 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Help"
+2013-03-05 19:27:17,871 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Help"
+2013-03-05 19:27:17,871 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 File Manager" ==========
+2013-03-05 19:27:17,872 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:27:17,872 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:27:17,872 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:27:17,872 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:27:17,872 INFO  FelixStartLevel  FilesPlugin                      de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Files" ==========
+2013-03-05 19:27:17,873 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:17,873 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:17,873 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:17,874 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:27:18,018 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:18,019 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Directory resource of plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:18,019 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Files"
+2013-03-05 19:27:18,020 INFO  FelixStartLevel  TopicmapsPlugin                  de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Topicmaps" ==========
+2013-03-05 19:27:18,021 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,021 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,021 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,021 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:27:18,173 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,173 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:27:18,174 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Type Search" ==========
+2013-03-05 19:27:18,175 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:27:18,175 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:27:18,175 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:27:18,175 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:27:18,175 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Icon Picker" ==========
+2013-03-05 19:27:18,176 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:27:18,176 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:27:18,176 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:27:18,176 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:27:18,177 INFO  FelixStartLevel  TypeEditorPlugin                 de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Type Editor" ==========
+2013-03-05 19:27:18,177 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:27:18,177 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering listeners of plugin "DeepaMehta 4 Type Editor" at DeepaMehta 4 core service
+2013-03-05 19:27:18,177 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:27:18,177 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:27:18,177 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:27:18,178 INFO  FelixStartLevel  WorkspacesPlugin                 de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Workspaces" ==========
+2013-03-05 19:27:18,178 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:18,178 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering listeners of plugin "DeepaMehta 4 Workspaces" at DeepaMehta 4 core service
+2013-03-05 19:27:18,178 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:18,178 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:18,179 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:27:18,180 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Contacts" ==========
+2013-03-05 19:27:18,180 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:27:18,180 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:27:18,180 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:27:18,180 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:27:18,181 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Notes" ==========
+2013-03-05 19:27:18,181 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Notes"
+2013-03-05 19:27:18,181 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Notes"
+2013-03-05 19:27:18,181 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Notes"
+2013-03-05 19:27:18,181 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Notes"
+2013-03-05 19:27:18,182 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Webbrowser" ==========
+2013-03-05 19:27:18,182 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:27:18,182 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:27:18,182 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:27:18,183 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:27:18,183 INFO  FelixStartLevel  WebclientPlugin                  de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Webclient" ==========
+2013-03-05 19:27:18,183 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,183 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering listeners of plugin "DeepaMehta 4 Webclient" at DeepaMehta 4 core service
+2013-03-05 19:27:18,184 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,184 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,184 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:27:18,279 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering Web resources of plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,280 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:27:18,280 INFO  FelixStartLevel  WebservicePlugin                 de.deepamehta.core ========== Stopping plugin "DeepaMehta 4 Webservice" ==========
+2013-03-05 19:27:18,280 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing DeepaMehta 4 core service from plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:27:18,280 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Web Publishing service from plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:27:18,280 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Unregistering REST resources and/or provider classes of plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:27:18,281 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Removing Event Admin service from plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:27:18,281 INFO  FelixStartLevel  CoreActivator                    de.deepamehta.core ========== Stopping "DeepaMehta 4 Core" ==========
+2013-03-05 19:27:18,281 INFO  FelixStartLevel  CoreActivator                    de.deepamehta.core Removing HTTP service from DeepaMehta 4 Core
+2013-03-05 19:27:18,400 INFO  FelixStartLevel  core                             org.apache.aries.jmx.core Stopping JMX OSGi agent
+2013-03-05 19:27:18,402 INFO  FelixStartLevel  core                             org.apache.aries.jmx.core Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3] for service with service.id [10]
+2013-03-05 19:27:18,445 INFO  FelixStartLevel  KarArtifactInstaller             org.apache.karaf.deployer.kar Karaf archive installer destroyed.
+2013-03-05 19:27:18,527 INFO  FelixStartLevel  Activator                        org.ops4j.pax.logging.pax-logging-api Disabling SLF4J API support.
+2013-03-05 19:27:18,527 INFO  FelixStartLevel  Activator                        org.ops4j.pax.logging.pax-logging-api Disabling Jakarta Commons Logging API support.
+2013-03-05 19:27:18,527 INFO  FelixStartLevel  Activator                        org.ops4j.pax.logging.pax-logging-api Disabling Log4J API support.
+2013-03-05 19:27:18,528 INFO  FelixStartLevel  Activator                        org.ops4j.pax.logging.pax-logging-api Disabling Avalon Logger API support.
+2013-03-05 19:27:18,528 INFO  FelixStartLevel  Activator                        org.ops4j.pax.logging.pax-logging-api Disabling JULI Logger API support.
+05.03.2013 19:28:05 org.apache.karaf.main.SimpleFileLock lock
+INFO: locking
+2013-03-05 19:28:05,605 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.apache.felix.fileinstall-deploy.cfg
+2013-03-05 19:28:05,609 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.apache.karaf.features.cfg
+2013-03-05 19:28:05,611 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.apache.karaf.log.cfg
+2013-03-05 19:28:05,614 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.apache.karaf.jaas.cfg
+2013-03-05 19:28:05,616 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.apache.karaf.shell.cfg
+2013-03-05 19:28:05,618 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.apache.karaf.features.repos.cfg
+2013-03-05 19:28:05,620 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.apache.karaf.management.cfg
+2013-03-05 19:28:05,622 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.apache.karaf.features.obr.cfg
+2013-03-05 19:28:05,624 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.ops4j.pax.logging.cfg
+2013-03-05 19:28:05,626 INFO  FelixStartLevel  fileinstall                      org.apache.felix.fileinstall Installed /home/silke/Downloads/deepamehta-4.0.14-karaf/etc/org.ops4j.pax.url.mvn.cfg
+2013-03-05 19:28:05,730 INFO  FelixStartLevel  BlueprintExtender                org.apache.aries.blueprint No quiesce support is available, so blueprint components will not participate in quiesce operations
+2013-03-05 19:28:06,001 INFO  FelixStartLevel  core                             org.apache.aries.jmx.core Starting JMX OSGi agent
+2013-03-05 19:28:06,037 INFO  FelixStartLevel  core                             org.apache.aries.jmx.core Registering MBean with ObjectName [osgi.compendium:service=cm,version=1.3] for service with service.id [10]
+2013-03-05 19:28:06,048 WARN  JMX OSGi Agent   core                             org.apache.aries.jmx.core There are no MBean servers registred, can't register MBeans
+2013-03-05 19:28:06,124 INFO  rint Extender: 1 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.admin.management is waiting for dependencies [(objectClass=org.apache.karaf.admin.AdminService), (objectClass=javax.management.MBeanServer)]
+2013-03-05 19:28:06,140 INFO  rint Extender: 1 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.shell.dev is waiting for namespace handlers [http://karaf.apache.org/xmlns/shell/v1.0.0]
+2013-03-05 19:28:06,186 INFO  rint Extender: 3 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.diagnostic.management is waiting for dependencies [(objectClass=javax.management.MBeanServer)]
+2013-03-05 19:28:06,195 INFO  rint Extender: 3 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.jaas.command is waiting for namespace handlers [http://karaf.apache.org/xmlns/shell/v1.0.0]
+2013-03-05 19:28:06,401 INFO  FelixStartLevel  log                              org.apache.felix.http.jetty Logging to org.ops4j.pax.logging.slf4j.Slf4jLogger@39b6a053 via org.mortbay.log.Slf4jLog
+2013-03-05 19:28:06,454 INFO  FelixStartLevel  CoreActivator                    de.deepamehta.core ========== Starting "DeepaMehta 4 Core" ==========
+2013-03-05 19:28:06,472 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.compendium:service=cm,version=1.3
+2013-03-05 19:28:06,474 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.core:type=packageState,version=1.5
+2013-03-05 19:28:06,476 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.core:type=serviceState,version=1.5
+2013-03-05 19:28:06,488 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.core:type=bundleState,version=1.5
+2013-03-05 19:28:06,491 INFO  JMX OSGi Agent   core                             org.apache.aries.jmx.core Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@38503429 with name osgi.core:type=framework,version=1.5
+2013-03-05 19:28:06,497 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webservice" ABORTED -- file does not exist
+2013-03-05 19:28:06,531 INFO  FelixStartLevel  WebservicePlugin                 de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Webservice" ==========
+2013-03-05 19:28:06,551 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Webservice" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,552 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:28:06,590 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:28:06,729 INFO  FelixStartLevel  WebclientPlugin                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Webclient" ==========
+2013-03-05 19:28:06,731 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Webclient" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,732 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:28:06,767 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:06,767 INFO  tty HTTP Service CoreActivator                    de.deepamehta.core Adding HTTP service to DeepaMehta 4 Core
+2013-03-05 19:28:06,768 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Webbrowser" ==========
+2013-03-05 19:28:06,778 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Webbrowser" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,784 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:06,798 INFO  tty HTTP Service jetty                            org.apache.felix.http.jetty Started jetty 6.1.x at port(s) HTTP:8080
+2013-03-05 19:28:06,800 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:06,801 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Notes" ==========
+2013-03-05 19:28:06,812 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Notes" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,813 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:06,829 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:06,830 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Contacts" ==========
+2013-03-05 19:28:06,842 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Contacts" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,843 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:06,878 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:06,879 INFO  FelixStartLevel  WorkspacesPlugin                 de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Workspaces" ==========
+2013-03-05 19:28:06,911 INFO  rint Extender: 3 BlueprintContainerImpl           org.apache.aries.blueprint Bundle org.apache.karaf.admin.command is waiting for dependencies [(objectClass=org.apache.karaf.admin.AdminService)]
+2013-03-05 19:28:06,943 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking 1 plugin services for plugin "DeepaMehta 4 Workspaces" [de.deepamehta.plugins.facets.service.FacetsService]
+2013-03-05 19:28:06,945 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:06,960 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:06,962 INFO  FelixStartLevel  TypeEditorPlugin                 de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Type Editor" ==========
+2013-03-05 19:28:06,967 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Type Editor" ABORTED -- no consumed services declared
+2013-03-05 19:28:06,976 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:06,992 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:06,994 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Icon Picker" ==========
+2013-03-05 19:28:07,007 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Icon Picker" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,009 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:07,045 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Type Search" ABORTED -- file does not exist
+2013-03-05 19:28:07,046 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Type Search" ==========
+2013-03-05 19:28:07,046 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Type Search" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,047 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:28:07,083 INFO  FelixStartLevel  TopicmapsPlugin                  de.deepamehta.topicmaps ### Registering topicmap renderer "de.deepamehta.plugins.topicmaps.DefaultTopicmapRenderer"
+2013-03-05 19:28:07,084 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:07,086 INFO  FelixStartLevel  TopicmapsPlugin                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Topicmaps" ==========
+2013-03-05 19:28:07,094 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Topicmaps" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,095 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:07,140 INFO  rint Extender: 2 KarArtifactInstaller             org.apache.karaf.deployer.kar Karaf archives will be extracted to /home/silke/Downloads/deepamehta-4.0.14-karaf/system
+2013-03-05 19:28:07,142 INFO  rint Extender: 2 KarArtifactInstaller             org.apache.karaf.deployer.kar Timestamps for Karaf archives will be extracted to /home/silke/Downloads/deepamehta-4.0.14-karaf/system/.timestamps
+2013-03-05 19:28:07,157 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:07,159 INFO  FelixStartLevel  FilesPlugin                      de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Files" ==========
+2013-03-05 19:28:07,189 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Files" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,191 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:07,200 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 File Manager" ABORTED -- file does not exist
+2013-03-05 19:28:07,201 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 File Manager" ==========
+2013-03-05 19:28:07,201 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 File Manager" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,208 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:28:07,221 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Help" ABORTED -- file does not exist
+2013-03-05 19:28:07,223 INFO  FelixStartLevel  PluginActivator                  de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Help" ==========
+2013-03-05 19:28:07,224 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Help" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,225 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:28:07,265 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:07,280 INFO  FelixStartLevel  AccessControlPlugin              de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Access Control" ==========
+2013-03-05 19:28:07,295 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking 1 plugin services for plugin "DeepaMehta 4 Access Control" [de.deepamehta.plugins.workspaces.service.WorkspacesService]
+2013-03-05 19:28:07,297 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:07,300 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Facets"
+2013-03-05 19:28:07,301 INFO  FelixStartLevel  FacetsPlugin                     de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Facets" ==========
+2013-03-05 19:28:07,303 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking plugin services for plugin "DeepaMehta 4 Facets" ABORTED -- no consumed services declared
+2013-03-05 19:28:07,304 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:28:07,359 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Reading config file "/plugin.properties" for plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:07,362 INFO  FelixStartLevel  GeomapsPlugin                    de.deepamehta.core ========== Starting plugin "DeepaMehta 4 Geomaps" ==========
+2013-03-05 19:28:07,374 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Tracking 2 plugin services for plugin "DeepaMehta 4 Geomaps" [de.deepamehta.plugins.topicmaps.service.TopicmapsService, de.deepamehta.plugins.facets.service.FacetsService]
+2013-03-05 19:28:07,380 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Event Admin service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:07,406 INFO  FelixStartLevel  Neo4jStorageActivator            de.deepamehta.storage-neo4j ========== Starting "DeepaMehta 4 Storage - Neo4j" ==========
+2013-03-05 19:28:07,549 INFO  rint Extender: 2 SecurityUtils                    org.apache.sshd.core BouncyCastle not registered, using the default JCE provider
+2013-03-05 19:28:08,217 INFO  FelixStartLevel  Neo4jStorageActivator            de.deepamehta.storage-neo4j Registering DeepaMehta 4 storage service - Neo4j - at OSGi framework
+2013-03-05 19:28:08,219 INFO  FelixStartLevel  CoreActivator                    de.deepamehta.core Adding storage service to DeepaMehta 4 Core
+2013-03-05 19:28:08,281 INFO  FelixStartLevel  EmbeddedService                  de.deepamehta.core ----- Setting up the database -----
+2013-03-05 19:28:08,305 INFO  FelixStartLevel  MigrationManager                 de.deepamehta.core Running core migrations ABORTED -- everything up-to-date (migrationNr=3)
+2013-03-05 19:28:08,305 INFO  FelixStartLevel  EmbeddedService                  de.deepamehta.core ----- Setting up the database complete -----
+2013-03-05 19:28:08,305 INFO  FelixStartLevel  CoreActivator                    de.deepamehta.core Registering DeepaMehta 4 core service at OSGi framework
+2013-03-05 19:28:08,315 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:08,331 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:28:08,332 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:08,333 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:28:08,334 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:28:08,340 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:08,341 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:08,342 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:28:08,343 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:08,344 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:08,344 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:08,345 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:08,346 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:08,347 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:08,360 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:28:08,361 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding DeepaMehta 4 core service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:28:08,370 INFO  FelixStartLevel  WebPublishingService             de.deepamehta.core Setting up the Web Publishing service
+2013-03-05 19:28:08,546 INFO  FelixStartLevel  CoreActivator                    de.deepamehta.core Registering Web Publishing service at OSGi framework
+2013-03-05 19:28:08,549 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:08,549 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Geomaps" at URI namespace "/de.deepamehta.geomaps"
+2013-03-05 19:28:08,565 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Geomaps" at URI namespace "/geomap"
+2013-03-05 19:28:08,566 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Geomaps" ABORTED -- no provider classes provided
+2013-03-05 19:28:08,803 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:28:09,793 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Facets"
+2013-03-05 19:28:09,793 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Facets" at URI namespace "/de.deepamehta.facets"
+2013-03-05 19:28:09,793 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Facets" ABORTED -- no REST resources provided
+2013-03-05 19:28:09,794 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Facets" ABORTED -- no provider classes provided
+2013-03-05 19:28:09,794 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Facets" -----
+2013-03-05 19:28:09,963 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Facets" in the database ABORTED -- already installed
+2013-03-05 19:28:09,963 INFO  FelixStartLevel  TypeCache                        de.deepamehta.core Loading topic type "dm4.core.plugin"
+2013-03-05 19:28:10,027 INFO  FelixStartLevel  DeepaMehtaUtils                  de.deepamehta.core Host setting:
+    dm4.host.url="http://localhost:8080/"
+2013-03-05 19:28:10,072 INFO  FelixStartLevel  TypeCache                        de.deepamehta.core Loading topic type "dm4.webclient.view_config"
+2013-03-05 19:28:10,265 INFO  FelixStartLevel  TypeCache                        de.deepamehta.core Loading topic type "dm4.webclient.icon"
+2013-03-05 19:28:10,308 INFO  FelixStartLevel  TypeCache                        de.deepamehta.core Loading topic type "dm4.webclient.simple_renderer_uri"
+2013-03-05 19:28:10,365 INFO  FelixStartLevel  MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Facets" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:10,365 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Facets" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:10,366 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.facets.service.FacetsService" at OSGi framework
+2013-03-05 19:28:10,366 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding "de.deepamehta.plugins.facets.service.FacetsService" to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:10,367 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding "de.deepamehta.plugins.facets.service.FacetsService" to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:10,368 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Facets" complete -----
+2013-03-05 19:28:10,372 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 1
+2013-03-05 19:28:10,373 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:10,373 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Access Control" at URI namespace "/de.deepamehta.accesscontrol"
+2013-03-05 19:28:10,374 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Access Control" at URI namespace "/accesscontrol"
+2013-03-05 19:28:10,376 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering 2 provider classes of plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:10,377 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:28:10,827 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Help"
+2013-03-05 19:28:10,827 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Help" at URI namespace "/de.deepamehta.help"
+2013-03-05 19:28:10,827 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Help" ABORTED -- no REST resources provided
+2013-03-05 19:28:10,828 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Help" ABORTED -- no provider classes provided
+2013-03-05 19:28:10,828 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Help" -----
+2013-03-05 19:28:10,832 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Help" in the database ABORTED -- already installed
+2013-03-05 19:28:10,841 INFO  FelixStartLevel  MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Help" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:28:10,841 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Help" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:10,842 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Help" ABORTED -- no OSGi service provided
+2013-03-05 19:28:10,842 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Help" complete -----
+2013-03-05 19:28:10,845 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 2
+2013-03-05 19:28:10,846 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 File Manager"
+2013-03-05 19:28:10,846 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 File Manager" at URI namespace "/de.deepamehta.filemanager"
+2013-03-05 19:28:10,846 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 File Manager" ABORTED -- no REST resources provided
+2013-03-05 19:28:10,846 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 File Manager" ABORTED -- no provider classes provided
+2013-03-05 19:28:10,846 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 File Manager" -----
+2013-03-05 19:28:10,849 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 File Manager" in the database ABORTED -- already installed
+2013-03-05 19:28:10,857 INFO  FelixStartLevel  MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 File Manager" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:28:10,857 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 File Manager" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:10,857 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 File Manager" ABORTED -- no OSGi service provided
+2013-03-05 19:28:10,858 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 File Manager" complete -----
+2013-03-05 19:28:10,861 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 3
+2013-03-05 19:28:10,861 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:10,862 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Files" at URI namespace "/de.deepamehta.files"
+2013-03-05 19:28:10,863 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Files" at URI namespace "/files"
+2013-03-05 19:28:10,864 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering 1 provider classes of plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:10,865 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:28:11,236 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:11,236 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Topicmaps" at URI namespace "/de.deepamehta.topicmaps"
+2013-03-05 19:28:11,236 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Topicmaps" at URI namespace "/topicmap"
+2013-03-05 19:28:11,237 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering 1 provider classes of plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:11,238 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:28:11,691 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Type Search"
+2013-03-05 19:28:11,691 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Type Search" at URI namespace "/de.deepamehta.typesearch"
+2013-03-05 19:28:11,691 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Type Search" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,691 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Type Search" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,691 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Type Search" -----
+2013-03-05 19:28:11,693 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Type Search" in the database ABORTED -- already installed
+2013-03-05 19:28:11,695 INFO  FelixStartLevel  MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Type Search" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:28:11,696 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Type Search" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:11,696 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Type Search" ABORTED -- no OSGi service provided
+2013-03-05 19:28:11,696 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Type Search" complete -----
+2013-03-05 19:28:11,698 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 4
+2013-03-05 19:28:11,699 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:11,699 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Icon Picker" at URI namespace "/de.deepamehta.iconpicker"
+2013-03-05 19:28:11,699 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,699 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,700 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:11,700 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Type Editor" at URI namespace "/de.deepamehta.typeeditor"
+2013-03-05 19:28:11,700 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Type Editor" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,700 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Type Editor" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,700 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:11,701 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Workspaces" at URI namespace "/de.deepamehta.workspaces"
+2013-03-05 19:28:11,701 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Workspaces" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,701 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Workspaces" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,701 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:11,701 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Contacts" at URI namespace "/de.deepamehta.contacts"
+2013-03-05 19:28:11,702 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Contacts" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,702 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Contacts" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,702 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:11,702 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Notes" at URI namespace "/de.deepamehta.notes"
+2013-03-05 19:28:11,702 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Notes" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,703 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Notes" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,703 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:11,703 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Webbrowser" at URI namespace "/de.deepamehta.webbrowser"
+2013-03-05 19:28:11,703 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no REST resources provided
+2013-03-05 19:28:11,703 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,704 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Webclient"
+2013-03-05 19:28:11,704 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Webclient" at URI namespace "/de.deepamehta.webclient"
+2013-03-05 19:28:11,705 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Webclient" at URI namespace "/webclient"
+2013-03-05 19:28:11,705 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering provider classes of plugin "DeepaMehta 4 Webclient" ABORTED -- no provider classes provided
+2013-03-05 19:28:11,706 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:28:12,138 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Webclient" -----
+2013-03-05 19:28:12,143 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Webclient" in the database ABORTED -- already installed
+2013-03-05 19:28:12,145 INFO  FelixStartLevel  MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Webclient" ABORTED -- everything up-to-date (migrationNr=2)
+2013-03-05 19:28:12,150 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering 3 listeners of plugin "DeepaMehta 4 Webclient" at DeepaMehta 4 core service
+2013-03-05 19:28:12,150 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Webclient" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,151 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Webclient" complete -----
+2013-03-05 19:28:12,152 INFO  Thread-28        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Files"
+2013-03-05 19:28:12,154 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 5
+2013-03-05 19:28:12,154 INFO  Thread-28        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Files" -----
+2013-03-05 19:28:12,155 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Adding Web Publishing service to plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:28:12,155 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering Web resources of plugin "DeepaMehta 4 Webservice" ABORTED -- no Web resources provided
+2013-03-05 19:28:12,158 INFO  Thread-28        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Files" in the database ABORTED -- already installed
+2013-03-05 19:28:12,159 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering REST resources of plugin "DeepaMehta 4 Webservice" at URI namespace "/core"
+2013-03-05 19:28:12,163 INFO  Thread-28        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Files" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,163 INFO  Thread-28        PluginImpl                       de.deepamehta.core ### Publishing directory "/home/silke/Downloads/deepamehta-4.0.14-karaf/deepamehta-files" at URI namespace "/filerepo"
+2013-03-05 19:28:12,164 INFO  Thread-28        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Files" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,165 INFO  Thread-28        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.files.service.FilesService" at OSGi framework
+2013-03-05 19:28:12,168 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering 10 provider classes of plugin "DeepaMehta 4 Webservice"
+2013-03-05 19:28:12,168 INFO  Thread-28        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Files" complete -----
+2013-03-05 19:28:12,169 INFO  FelixStartLevel  WebApplicationImpl               com.sun.jersey.jersey-server Initiating Jersey application, version 'Jersey: 1.14 09/09/2012 05:39 PM'
+2013-03-05 19:28:12,170 INFO  Thread-28        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 6
+2013-03-05 19:28:12,172 INFO  Thread-29        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:12,173 INFO  Thread-32        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.files" for plugin "DeepaMehta 4 Topicmaps"
+2013-03-05 19:28:12,173 INFO  Thread-29        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Topicmaps" -----
+2013-03-05 19:28:12,175 INFO  Thread-29        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Topicmaps" in the database ABORTED -- already installed
+2013-03-05 19:28:12,178 INFO  Thread-29        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Topicmaps" ABORTED -- everything up-to-date (migrationNr=3)
+2013-03-05 19:28:12,178 INFO  Thread-29        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Topicmaps" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,178 INFO  Thread-29        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.topicmaps.service.TopicmapsService" at OSGi framework
+2013-03-05 19:28:12,179 INFO  Thread-29        PluginImpl                       de.deepamehta.core Adding "de.deepamehta.plugins.topicmaps.service.TopicmapsService" to plugin "DeepaMehta 4 Geomaps"
+2013-03-05 19:28:12,179 INFO  Thread-29        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Geomaps" -----
+2013-03-05 19:28:12,181 INFO  Thread-29        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Geomaps" in the database ABORTED -- already installed
+2013-03-05 19:28:12,184 INFO  Thread-29        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Geomaps" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,185 INFO  Thread-29        TopicmapsPlugin                  de.deepamehta.topicmaps ### Registering topicmap renderer "de.deepamehta.plugins.geomaps.GeomapRenderer"
+2013-03-05 19:28:12,185 INFO  Thread-29        PluginImpl                       de.deepamehta.core Registering 3 listeners of plugin "DeepaMehta 4 Geomaps" at DeepaMehta 4 core service
+2013-03-05 19:28:12,185 INFO  Thread-29        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.geomaps.service.GeomapsService" at OSGi framework
+2013-03-05 19:28:12,188 INFO  Thread-29        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Geomaps" complete -----
+2013-03-05 19:28:12,191 INFO  Thread-29        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 7
+2013-03-05 19:28:12,193 INFO  Thread-29        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Topicmaps" complete -----
+2013-03-05 19:28:12,195 INFO  Thread-29        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 8
+2013-03-05 19:28:12,196 INFO  Thread-11        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Icon Picker"
+2013-03-05 19:28:12,196 INFO  Thread-32        PluginManager                    de.deepamehta.core Activation of plugin "DeepaMehta 4 Topicmaps" ABORTED -- already activated
+2013-03-05 19:28:12,197 INFO  Thread-11        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Icon Picker" -----
+2013-03-05 19:28:12,200 INFO  Thread-11        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Icon Picker" in the database ABORTED -- already installed
+2013-03-05 19:28:12,205 INFO  Thread-11        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Icon Picker" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,205 INFO  Thread-11        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Icon Picker" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,205 INFO  Thread-11        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Icon Picker" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,206 INFO  Thread-11        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Icon Picker" complete -----
+2013-03-05 19:28:12,216 INFO  Thread-11        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 9
+2013-03-05 19:28:12,218 INFO  Thread-26        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Type Editor"
+2013-03-05 19:28:12,218 INFO  Thread-26        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Type Editor" -----
+2013-03-05 19:28:12,221 INFO  Thread-26        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Type Editor" in the database ABORTED -- already installed
+2013-03-05 19:28:12,223 INFO  Thread-26        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Type Editor" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,223 INFO  Thread-26        PluginImpl                       de.deepamehta.core Registering 2 listeners of plugin "DeepaMehta 4 Type Editor" at DeepaMehta 4 core service
+2013-03-05 19:28:12,223 INFO  Thread-26        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Type Editor" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,223 INFO  Thread-26        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Type Editor" complete -----
+2013-03-05 19:28:12,226 INFO  Thread-26        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 10
+2013-03-05 19:28:12,226 INFO  Thread-26        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:12,227 INFO  Thread-11        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Notes"
+2013-03-05 19:28:12,227 INFO  Thread-11        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Notes" -----
+2013-03-05 19:28:12,229 INFO  Thread-11        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Notes" in the database ABORTED -- already installed
+2013-03-05 19:28:12,231 INFO  Thread-11        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Notes" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,231 INFO  Thread-11        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Notes" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,232 INFO  Thread-11        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Notes" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,232 INFO  Thread-11        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Notes" complete -----
+2013-03-05 19:28:12,234 INFO  Thread-11        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 11
+2013-03-05 19:28:12,234 INFO  Thread-21        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Workspaces"
+2013-03-05 19:28:12,235 INFO  Thread-21        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Workspaces" -----
+2013-03-05 19:28:12,241 INFO  Thread-21        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Workspaces" in the database ABORTED -- already installed
+2013-03-05 19:28:12,244 INFO  Thread-21        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Workspaces" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,244 INFO  Thread-21        PluginImpl                       de.deepamehta.core Registering 3 listeners of plugin "DeepaMehta 4 Workspaces" at DeepaMehta 4 core service
+2013-03-05 19:28:12,244 INFO  Thread-21        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.workspaces.service.WorkspacesService" at OSGi framework
+2013-03-05 19:28:12,245 INFO  Thread-21        PluginImpl                       de.deepamehta.core Adding "de.deepamehta.plugins.workspaces.service.WorkspacesService" to plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:12,245 INFO  Thread-21        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Access Control" -----
+2013-03-05 19:28:12,251 INFO  Thread-21        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Access Control" in the database ABORTED -- already installed
+2013-03-05 19:28:12,254 INFO  Thread-21        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Access Control" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,255 INFO  Thread-21        AccessControlPlugin              de.deepamehta.accesscontrol Security settings:
+    dm4.security.read_requires_login=true
+    dm4.security.write_requires_login=true
+    dm4.security.subnet_filter="0.0.0.0/0"
+2013-03-05 19:28:12,258 INFO  Thread-21        PluginImpl                       de.deepamehta.core Registering 9 listeners of plugin "DeepaMehta 4 Access Control" at DeepaMehta 4 core service
+2013-03-05 19:28:12,258 INFO  Thread-21        PluginImpl                       de.deepamehta.core Registering service "de.deepamehta.plugins.accesscontrol.service.AccessControlService" at OSGi framework
+2013-03-05 19:28:12,261 INFO  Thread-21        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Access Control" complete -----
+2013-03-05 19:28:12,263 INFO  Thread-21        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 12
+2013-03-05 19:28:12,266 INFO  Thread-21        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Workspaces" complete -----
+2013-03-05 19:28:12,269 INFO  Thread-21        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 13
+2013-03-05 19:28:12,269 INFO  Thread-14        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Access Control"
+2013-03-05 19:28:12,269 INFO  Thread-14        PluginManager                    de.deepamehta.core Activation of plugin "DeepaMehta 4 Access Control" ABORTED -- already activated
+2013-03-05 19:28:12,270 INFO  Thread-28        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webclient" for plugin "DeepaMehta 4 Webbrowser"
+2013-03-05 19:28:12,270 INFO  Thread-28        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Webbrowser" -----
+2013-03-05 19:28:12,271 INFO  Thread-28        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Webbrowser" in the database ABORTED -- already installed
+2013-03-05 19:28:12,274 INFO  Thread-28        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Webbrowser" ABORTED -- everything up-to-date (migrationNr=2)
+2013-03-05 19:28:12,274 INFO  Thread-28        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Webbrowser" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,275 INFO  Thread-28        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Webbrowser" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,275 INFO  Thread-28        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Webbrowser" complete -----
+2013-03-05 19:28:12,276 INFO  Thread-19        PluginImpl                       de.deepamehta.core Handling PLUGIN_ACTIVATED event from "de.deepamehta.webbrowser" for plugin "DeepaMehta 4 Contacts"
+2013-03-05 19:28:12,278 INFO  Thread-28        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 14
+2013-03-05 19:28:12,278 INFO  Thread-19        PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Contacts" -----
+2013-03-05 19:28:12,281 INFO  Thread-19        PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Contacts" in the database ABORTED -- already installed
+2013-03-05 19:28:12,284 INFO  Thread-19        MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Contacts" ABORTED -- everything up-to-date (migrationNr=1)
+2013-03-05 19:28:12,284 INFO  Thread-19        PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Contacts" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,285 INFO  Thread-19        PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Contacts" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,285 INFO  Thread-19        PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Contacts" complete -----
+2013-03-05 19:28:12,287 INFO  Thread-19        PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 15
+2013-03-05 19:28:12,635 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activating plugin "DeepaMehta 4 Webservice" -----
+2013-03-05 19:28:12,637 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Installing plugin "DeepaMehta 4 Webservice" in the database ABORTED -- already installed
+2013-03-05 19:28:12,638 INFO  FelixStartLevel  MigrationManager                 de.deepamehta.core Running migrations for plugin "DeepaMehta 4 Webservice" ABORTED -- everything up-to-date (migrationNr=0)
+2013-03-05 19:28:12,639 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering listeners of plugin "DeepaMehta 4 Webservice" at DeepaMehta 4 core service ABORTED -- no listeners implemented
+2013-03-05 19:28:12,639 INFO  FelixStartLevel  PluginImpl                       de.deepamehta.core Registering OSGi service of plugin "DeepaMehta 4 Webservice" ABORTED -- no OSGi service provided
+2013-03-05 19:28:12,639 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ----- Activation of plugin "DeepaMehta 4 Webservice" complete -----
+2013-03-05 19:28:12,641 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ### Bundles total: 76, DeepaMehta plugins: 16, Activated: 16
+2013-03-05 19:28:12,641 INFO  FelixStartLevel  PluginManager                    de.deepamehta.core ########## All Plugins Activated ##########
+2013-03-05 19:28:12,641 INFO  FelixStartLevel  WebclientPlugin                  de.deepamehta.webclient ### Launching webclient (url="http://localhost:null/de.deepamehta.webclient/")
+2013-03-05 19:28:12,805 INFO  FelixStartLevel  TypeCache                        de.deepamehta.core Loading topic type "dm4.workspaces.workspace_facet"
+2013-03-05 19:28:12,828 INFO  FelixStartLevel  TypeCache                        de.deepamehta.core Loading topic type "dm4.workspaces.workspace"
+2013-03-05 19:28:12,866 INFO  FelixStartLevel  TypeCache                        de.deepamehta.core Loading topic type "dm4.webclient.is_searchable_unit"
+2013-03-05 19:28:12,885 INFO  FelixStartLevel  TypeCache                        de.deepamehta.core Loading topic type "dm4.workspaces.name"
+2013-03-05 19:28:12,897 INFO  FelixStartLevel  AccessControlPlugin              de.deepamehta.accesscontrol ### Assigning the default user ("admin") to a workspace ABORTED -- already assigned ("DeepaMehta")
+2013-03-05 19:28:12,903 INFO  FelixStartLevel  AccessControlPlugin              de.deepamehta.accesscontrol ### Assigning the default topicmap ("untitled") to a workspace ABORTED -- already assigned ("DeepaMehta")
+2013-03-05 19:28:12,904 INFO  FelixStartLevel  AccessControlPlugin              de.deepamehta.accesscontrol ### Setup access control for the default topicmap ("untitled") ABORTED -- already setup
+2013-03-05 19:28:13,048 INFO  rint Extender: 2 FeaturesPlugin                   org.apache.karaf.webconsole.features Features plugin activated
+2013-03-05 19:28:31,486 INFO  NioProcessor-2   ServerSession                    org.apache.sshd.core Session created from /0:0:0:0:0:0:0:1:39647
+2013-03-05 19:28:37,307 INFO  NioProcessor-2   ServerSession                    org.apache.sshd.core Session null@/0:0:0:0:0:0:0:1:39647 closed
+2013-03-05 19:28:43,227 INFO  NioProcessor-3   ServerSession                    org.apache.sshd.core Session created from /0:0:0:0:0:0:0:1:39652
+2013-03-05 19:28:46,375 INFO  NioProcessor-3   ServerSession                    org.apache.sshd.core Session karaf@/0:0:0:0:0:0:0:1:39652 authenticated
+2013-03-05 19:39:46,937 INFO  NioProcessor-3   ServerSession                    org.apache.sshd.core Session karaf@/0:0:0:0:0:0:0:1:39652 closed
